@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面。-->
+		<title>候么外卖餐官网</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="外卖，候么外卖，厨房，中心厨房，家庭厨房，送餐，吃饭，创业，加盟代理">
+		<meta name="author" content="徐州候么餐饮管理有限公司" />
+		<meta name="Copyright" content="徐州候么餐饮管理有限公司" />
+		<meta name="description" content="徐州候么餐饮管理有限公司是一家从事互联网本地生活服务平台的产品公司。2017年推出候么外卖平台，候么外卖，可以直播的外卖，告别餐馆味道，告别固定菜谱，统一公开的采购，宝宝再也不用担心吃腻，更不用担心黑作坊不卫生不健康了。快来加盟候么外卖吧，现各市诚邀加盟代理">
+
+		<link rel="shortcut icon" href="../favicon.ico">
+		<!-- Google Webfont -->
+		<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'> -->
+		<!-- Themify Icons -->
+		<link rel="stylesheet" href="../css/themify-icons.css">
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/owl.carousel.min.css">
+		<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="../css/magnific-popup.css">
+		<!--多级下拉菜单-->
+		<link rel="stylesheet" href="../css/superfish.css">
+		<!--选项卡-->
+		<link rel="stylesheet" href="../css/easy-responsive-tabs.css">
+		<link rel="stylesheet" href="../css/animate.css">
+		<!-- Theme Style -->
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/culture.css">
+		<link rel="stylesheet" href="../fonts/iconfont.css">
+		<link rel="stylesheet" type="text/css" href="../css/culture1.css" />
+		<!-- Modernizr JS -->
+		<script src="../js/modernizr-2.6.2.min.js"></script>
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+			<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+		<!-- START #fh5co-header -->
+		<header id="fh5co-header-section" role="header" style="background: #ffd02e;">
+			<div class="container">
+				<h1 id="fh5co-logo" class="pull-left"><a href="../index.html"><img src="../images/logo.png" alt="候么外卖"></a></h1>
+				<nav id="fh5co-menu-wrap" role="navigation">
+					<ul class="sf-menu" id="fh5co-primary-menu">
+						<li>
+							<a href="../index.html">首页</a>
+						</li>
+						<li class="active">
+							<a href="culture.html">走进我们</a>
+						</li>
+						<li>
+							<a href="hezuo.html">招商合作</a>
+						</li>
+						<li>
+							<a href="project.html">项目简介</a>
+						</li>
+						<li>
+							<a href="new-shang.html">商学院</a>
+						</li>
+						<li>
+							<a href="contactus.html">联系我们</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<div id="fh5co-hero" style="background-image: url(../images/bing.png);">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="fh5co-hero-wrap">
+						<div class="fh5co-hero-intro">
+							<div class="to-animate hero-animate-1 h1">跟紧时代步伐，不忘初心</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-main" style="margin-top: -59px;position: relative;z-index: 98;padding-bottom: 40px;">
+			<div class="row" style="margin: 0;">
+				<div id="fh5co-tab-feature-center" class="fh5co-tab text-center">
+					<ul class="resp-tabs-list hor_1">
+						<li>企业文化</li>
+						<li>组织结构</li>
+						<li>发展战略</li>
+						<li>招贤纳士</li>
+					</ul>
+					<div class="resp-tabs-container hor_1">
+						<div>
+							<div class="fh5co-cards">
+								<div class="container-fluid" style="padding: 0;">
+									<div class="row" style="margin: 0;">
+										<div class="col-md-12 heading text-center" style="padding: 0;">
+											<h2 class="animated bounceInLeft">CORPORATE CULTURE</h2>
+											<div class="wid-nix">
+												<div class="pull-left pos-left animated bounceInLeft"></div>
+												<div class="pull-left cen-text animated zoomIn">企业文化</div>
+												<div class="pull-left pos-right animated bounceInRight"></div>
+												<div class="clear"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="wi-cen">
+								<h5>企业文化</h5>
+								<div class="box-ind">
+									<div class="fola-box ">
+										01
+										<div class="bla ">企业愿景</div>
+									</div>
+									<div class="fola-box">
+										02
+										<div class="high">企业使命 </div>
+									</div>
+									<div class="fola-box">
+										03
+										<div class="bla">企业理念</div>
+									</div>
+									<div class="fola-box">
+										04
+										<div class="high">企业宗旨</div>
+									</div>
+									<div class="fola-box">
+										05
+										<div class="bla">核心价值</div>
+									</div>
+								</div>
+								<div class="clear"></div>
+								<div class="wsda">
+									<div class="hsd">
+										<div class="row kot">
+											<!-- Start Slider -->
+											<div class="fh5co-spacer fh5co-spacer-xs"></div>
+											<div class=" owl-carousel-fullwidth animate-box">
+												<div class="item">
+													<a href="../images/geng.png" class="image-popup"><img src="../images/geng.png" alt="image"></a>
+												</div>
+												<div class="item">
+													<a href="../images/um-2.jpg" class="image-popup"><img src="../images/um-2.jpg" alt="image"></a>
+												</div>
+												<div class="item">
+													<a href="../images/um-3.png" class="image-popup"><img src="../images/um-3.png" alt="image"></a>
+												</div>
+												<div class="item">
+													<a href="../images/um-4.png" class="image-popup"><img src="../images/um-4.png" alt="image"></a>
+												</div>
+												<div class="item">
+													<a href="../images/um-5.png" class="image-popup"><img src="../images/um-5.png" alt="image"></a>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div>
+							<div class="fh5co-cards">
+								<div class="container-fluid" style="padding: 0;">
+									<div class="row" style="margin: 0;">
+										<div class="col-md-12 heading text-center" style="padding: 0;">
+											<h2 class="animated bounceInLeft">ORGANIZATIONAL STRUCTURE</h2>
+											<div class="wid-nix">
+												<div class="pull-left pos-left animated bounceInLeft"></div>
+												<div class="pull-left cen-text animated zoomIn">组织结构</div>
+												<div class="pull-left pos-right animated bounceInRight"></div>
+												<div class="clear"></div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="wi-cen">
+								<div class="jie-img">
+									<a href="../images/jie.png" class="image-popup"><img src="../images/jie.png" alt="image"></a>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="row" id="fh5co-features" style="margin: 0;">
+								<div class="col-md-12 heading text-center" style="padding: 0;">
+									<h2 class="animated bounceInLeft" style="margin-bottom: 0px;">ORGANIZATIONAL STRUCTURE</h2>
+									<div class="wid-nix">
+										<div class="pull-left pos-left animated bounceInLeft"></div>
+										<div class="pull-left cen-text animated zoomIn">发展战略</div>
+										<div class="pull-left pos-right animated bounceInRight"></div>
+										<div class="clear"></div>
+									</div>
+								</div>
+								<div class="contant animate-box">
+									<!--丝带模块开始-->
+									<div class="col-md-12 col-sm-12 col-xs-12  col-xxs-12 text-center fh5co-work-item work-box animate-box">
+										<div class="back-box">
+											<div class="zhanlveback">
+												<div class="to-animate hero-animate-4">
+													<p class="title">战略布局：三步走</p>
+												</div>
+												<img class="to-animate hero-animate-3 zhanlvepic" src="../img/bzhou.png" />
+											</div>
+										</div>
+									</div>
+									<!--丝带模块结束-->
+								</div>
+								<!--战略模块开始-->
+								<div class="contant animate-box" style="margin-bottom: 70px;">
+									<div class="col-md-12 col-sm-12 col-xs-12  col-xxs-12 text-center fh5co-work-item work-box animate-box" style="background: url(../img/back2.png);background-size:100% ;margin-top: 80px;margin-bottom: 80px;">
+										<div class="zhanlveback2">
+											<div>
+												<p class="to-animate hero-animate-4 title" style="color: #5f3100;">战略发展目标</p>
+											</div>
+											<div>
+												<p class="to-animate hero-animate-4 title" style="color: #333333;">初期目标：一年内，只招商，不融资，进入A轮前要完成：十百千万亿计划。</p>
+											</div>
+											<div class="to-animate hero-animate-3 circle-bg" style="height: auto;margin: 0 auto;">
+												<div class="col-sm-12 col-xs-12 col-md-2 text-center fh5co-feature animate-box circle-box">
+													<div class="fh5co-feature-icon">
+														<!--<i class="icon iconfont icon-yuanquan"></i>-->
+														<p class="text">十</p>
+													</div>
+													<h3>完成99个</br>中心厨房</br>的自营目</br>标。</h3>
+												</div>
+												<div class="col-sm-12 col-xs-12 col-md-2 text-center fh5co-feature animate-box circle-box">
+													<div class="fh5co-feature-icon">
+														<!--<i class="icon iconfont icon-yuanquan"></i>-->
+														<p class="text">百</p>
+													</div>
+													<h3>完成100</br>个城市上</br>线中心厨</br>房的战略</br>布局。</h3>
+												</div>
+												<div class="col-sm-12 col-xs-12 col-md-2 text-center fh5co-feature animate-box circle-box">
+													<div class="fh5co-feature-icon">
+														<!--<i class="icon iconfont icon-yuanquan"></i>-->
+														<p class="text">千</p>
+													</div>
+													<h3>完成5000</br>个灶位的</br>建设。</h3>
+												</div>
+												<div class="col-sm-12 col-xs-12 col-md-2 text-center fh5co-feature animate-box circle-box">
+													<div class="fh5co-feature-icon">
+														<!--<i class="icon iconfont icon-yuanquan"></i>-->
+														<p class="text">万</p>
+													</div>
+													<h3>完成5000</br>万订单总</br>数的战略</br>要求。</h3>
+												</div>
+												<div class="col-sm-12 col-xs-6 col-md-6 text-center fh5co-feature animate-box circle-box" style="clear: right;">
+													<div class="fh5co-feature-icon">
+														<!--<i class="icon iconfont icon-yuanquan"></i>-->
+														<p class="text">亿</p>
+													</div>
+													<h3>完成6亿</br>元的总资</br>金流。</h3>
+												</div>
+
+											</div>
+											<div style="clear: both;"></div>
+											<div class="animate-box">
+												<p class="to-animate hero-animate-4 title" style="color: #5f3100;">中期目标：完成A轮及后几轮的融资，实现10亿美元的商业价值。</p>
+											</div>
+											<div class="animate-box">
+												<p class="to-animate hero-animate-4 title" style="color: #5f3100;">终极目标：完成纳斯达克上市。</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!--...战略模块结束..-->
+								<!--....项目进展模块开始......-->
+								<div class="contant animate-box">
+									<!--丝带模块开始-->
+									<div class="text-center fh5co-work-item work-box animate-box">
+										<div class="back-box">
+											<div class="col-sm-3 col-xs-12  animate-box">
+												<div class="guihua-left-box" style="">
+													<h1 class="guihua-left-text" style="margin: 20px 20px 7px 20px;">项目</h1>
+													<h1 class="guihua-left-text" style="margin: 7px 20px 7px 20px;">进展</h1>
+													<h1 class="guihua-left-text" style="margin: 7px 20px 13px 20px;">规划</h1>
+													<div class="guihua-left-smtext" style=""></div>
+												</div>
+											</div>
+											<div class="col-sm-9 col-xs-12  animate-box">
+												<div class="guihuabox">
+													<ul>
+														<li class="animate-box">
+															<div class="point"></div>
+															<div class="describe">
+																<p class="describe-time">2016年4月25日-2017年5月10日</p>
+																<p class="describe-detail">项目成立</p>
+															</div>
+														</li>
+														<li class="animate-box">
+															<div class="point"></div>
+															<div class="describe">
+																<p class="describe-time">2017年5月15日-2017年6月15日</p>
+																<p class="describe-detail">资金筹措、项目融资</p>
+															</div>
+														</li>
+														<li class="animate-box">
+															<div class="point"></div>
+															<div class="describe">
+																<p class="describe-time">2017年5月10日-2017年6月10日</p>
+																<p class="describe-detail">系统设计、APP设计测试</p>
+															</div>
+														</li>
+														<li class="animate-box">
+															<div class="point"></div>
+															<div class="describe">
+																<p class="describe-time">2017年6月20日-2017年7月20日</p>
+																<p class="describe-detail">徐州2家中心厨房（30灶位）建设+外卖配送筹建运营</p>
+															</div>
+														</li>
+														<li class="animate-box">
+															<div class="point"></div>
+															<div class="describe">
+																<p class="describe-time">2017年7月20日-2017年8月30日</p>
+																<p class="describe-detail">北京、上海4家中心厨房直营店（各50灶位）筹建运营</p>
+															</div>
+														</li>
+														<li class="animate-box">
+															<div class="point"></div>
+															<div class="describe">
+																<p class="describe-time">2017年8月1日-2018年6月30日</p>
+																<p class="describe-detail">全国100家中心厨房+外卖连锁加盟</p>
+															</div>
+														</li>
+														<li class="animate-box">
+															<div class="point"></div>
+															<div class="describe">
+																<p class="describe-time">2018年7月1日-2019年6月30日</p>
+																<p class="describe-detail">全国300城市5000家连锁店运营</p>
+															</div>
+														</li>
+														<li class="animate-box">
+															<div class="point"></div>
+															<div class="describe">
+																<p class="describe-time">2019年后</p>
+																<p class="describe-detail">申请上市</p>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<!--丝带模块结束-->
+								</div>
+							</div>
+						</div>
+						<div>
+
+							<div class="fh5co-cards" style="margin: 0px;">
+								<div class="container-fluid" style="padding: 0px;">
+									<div class="row">
+										<div class="col-md-12 heading text-center" style="padding: 0px;">
+											<h2 class="animated bounceInLeft">RECRUITMENT</h2>
+											<div class="wid-nix">
+												<div class="pull-left pos-left animated bounceInLeft"></div>
+												<div class="pull-left cen-text animated zoomIn">招贤纳士</div>
+												<div class="pull-left pos-right animated bounceInRight"></div>
+												<div class="clear"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="container">
+								<div class="row" id="fh5co-works" style="margin:0 -25px;padding:0">
+									<div class="col-md-8 col-md-offset-2 text-center fh5co-section-heading work-box">
+										<h3>招贤纳士</h3>
+										<h4 class="fh5co-lead">茫茫人海&nbsp;&nbsp;&nbsp;只为等你</h4>
+										<p class="fh5co-sub">在这里不勾心斗角，你可以做自己善于且乐于做的事；</p>
+										<p class="fh5co-sub">在这里不论资排辈，如果你才华出众，那么下一个晋升的就是你。</p>
+										<div class="fh5co-spacer fh5co-spacer-sm"></div>
+									</div>
+
+									<div class="clearfix visible-sm-block visible-xs-block"></div>
+								</div>
+								<div class="row" style="margin:0 -25px;padding:0">
+									<div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12 marginb">
+										<dl class="row jionus_tu" style="margin: 0; width: 100%;">
+											<dt class="col-xs-6" style="padding: 0;"><img src="../images/joinus1.png" alt="" style="width: 100%;height: 100%;" /></dt>
+											<dd class="col-xs-6 padding">
+												<p>中心厨房（按20灶位计算）：25人。其中兼职厨娘20人，主管1人，内勤1人，勤杂3人；</p>
+											</dd>
+										</dl>
+									</div>
+									<div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 marginb">
+										<dl class="row jionus_tu" style="margin: 0;background: #01a2ea; width: 100%;">
+											<dt class="col-xs-7 jionus-xx" style="padding: 0;"><img src="../images/joinus2.png" alt="" style="width: 100%;" /></dt>
+											<dd class="col-xs-5 padding jionus-xx" style="background: #01a2ea;color: #fff;">
+												<p>对中心厨房厨神阿姨和厨房勤杂工以及外卖配送人员的招聘，公司专门分别制定了分类招聘办法，并制定了详尽的培训考核方案。</p>
+											</dd>
+										</dl>
+									</div>
+									<div style="clear: both;"></div>
+									<div class="col-lg-5 col-lg-offset-1 col-md-6 col-sm-12 col-xs-12 marginb">
+										<dl class="row jionus_tu" style="margin: 0;position: relative; width: 100%;">
+											<dt class="col-xs-12" style="padding: 0;width: 100%;"><img src="../images/joinus3.png" alt="" style="width: 100%;" /></dt>
+				<dd class="jianli" style="filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#9fffd02e,endColorstr=#9fffd02e);">
+												<h4 class="">简历投递</h4>
+												<p>To Apply,Join Us</p>
+												<p>地址：江苏省徐州市鼓楼区黄河北路90号淮海文化科技产业园</p>
+												<p>邮箱：343935381@qq.com</p>
+											</dd>
+										</dl>
+									</div>
+									<div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 marginb">
+										<dl class="row jionus_tu" style="margin: 0;background: #eee; width: 100%;">
+											<dd class="col-xs-6 padding">
+												<p>对中心厨房厨神阿姨和厨房勤杂工以及外卖配送人员的招聘，公司专门分别制定了分类招聘办法，并制定了详尽的培训考核方案。</p>
+											</dd>
+											<dt class="col-xs-6 " style="padding:0;"><img src="../images/joinus4.png" alt="" style="width: 100%;" /></dt>
+										</dl>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="clear"></div>
+		<!-- END fhtco-main -->
+		<footer role="contentinfo" id="fh5co-footer">
+			<a href="javascript:;" class="fh5co-arrow fh5co-gotop footer-box"><i class="ti-angle-up"></i></a>
+			<div class="container">
+				<div class="row ">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-offset-3 col-md-2 erweima">
+						<img src="../images/qcode.png" />
+						<p>用户端app下载</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-2 erweima">
+						<img src="../images/qcode-2.png" />
+						<p>商家端app下载</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-2 erweima">
+						<img src="../images/qcode-3.png" />
+						<p>关注微信公众号</p>
+					</div>
+					<div class="links col-md-12" style="clear: both;">
+						友情链接：
+						<a href="http://www.qq.com/">腾讯</a>
+						<a href="http://sohu.com">搜狐</a>
+						<a href="http://shuidi.huajiao.com/pc/view.html?sn=36081769182">水滴直播</a>
+						<a href="http://www.chgop.com/">塑料瓶</a>
+						<a href="http://www.shqlpack.com/">包装盒厂家</a>
+						<a href="http://www.jsddwx.cn/">江诗丹顿售后维修</a>
+
+					</div>
+					<div class="col-md-12  text-center" style="clear: both;">
+						<div class="fh5co-copyright">
+							<p>&copy; 2017 徐州候么餐饮管理有限公司 houmewaimai.com 苏ICP备17060673号-1</p>
+						</div>
+					</div>
+				</div>
+				<div class="fh5co-spacer fh5co-spacer-md"></div>
+			</div>
+		</footer>
+		<script src="../js/jquery-1.10.2.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/owl.carousel.min.js"></script>
+		<script src="../js/jquery.magnific-popup.min.js"></script>
+		<script src="../js/hoverIntent.js"></script>
+		<script src="../js/superfish.js"></script>
+		<script src="../js/easyResponsiveTabs.js"></script>
+		<script src="../js/fastclick.js"></script>
+
+		<script src="../js/jquery.waypoints.min.js"></script>
+		<script src="../js/main.js"></script>
+		<script>
+			$(function() {
+				$(".hsd").eq(2).find(".work-box").css("display", "none")
+				$(".fola-box:even").css({
+					"background-color": "rgba(0,0,0,0.2)",
+					"filter": "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4f000000,endColorstr=#4f000000)"
+				});
+				$(".fola-box").eq(0).addClass("comscolo");
+				$(".hsd").eq(0).addClass("hsd-act");
+
+				function myBrowser() {
+					var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+					var isOpera = userAgent.indexOf("Opera") > -1; //判断是否Opera浏览器
+					var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera; //判断是否IE浏览器
+					var isFF = userAgent.indexOf("Firefox") > -1; //判断是否Firefox浏览器
+					var isSafari = userAgent.indexOf("Safari") > -1; //判断是否Safari浏览器
+					if(isIE) {
+						var IE5 = IE55 = IE6 = IE7 = IE8 = false;
+						var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+						reIE.test(userAgent);
+						var fIEVersion = parseFloat(RegExp["$1"]);
+						IE55 = fIEVersion == 5.5;
+						IE6 = fIEVersion == 6.0;
+						IE7 = fIEVersion == 7.0;
+						IE8 = fIEVersion == 8.0;
+						if(IE55) {
+							return "IE55";
+						}
+						if(IE6) {
+							return "IE6";
+						}
+						if(IE7) {
+							return "IE7";
+						}
+						if(IE8) {
+							return "IE8";
+						}
+					} //isIE end
+					if(isFF) {
+						return "FF";
+					}
+					if(isOpera) {
+						return "Opera";
+					}
+				} //myBrowser() end
+				//以下是调用上面的函数
+				if(myBrowser() == "IE8") {
+
+					$("#fh5co-hero").css({
+						"display": "block"
+					});
+					$(".fh5co-hero-intro h1").css({
+						"position": "relative",
+						"top": "-130px"
+					})
+
+				} else {
+
+				}
+				$(".fola-box").on("click", function() {
+					var a = $(this).index();
+					$(this).addClass("comscolo").siblings().removeClass("comscolo");
+					$(".owl-dot").eq(a).click();
+				})
+				$(".owl-dot").on("click", function() {
+					var b = $(this).index();
+					$(".fola-box").eq(b).addClass("comscolo").siblings().removeClass("comscolo");
+
+				})
+
+			})
+
+			$(".circle-box").mouseover(function() {
+				$(this).find('.icon').css('color', '#ffd02e');
+				$(this).find('.text').css('color', '#5f3100');
+				$(this).find('h3').css('color', '#5f3100');
+			});
+			$(".circle-box").mouseleave(function() {
+				$(this).find('.icon').css('color', '#DDDDDD');
+				$(this).find('.text').css('color', '#999999');
+				$(this).find('h3').css('color', '#999999');
+			});
+			$(".describe").mouseover(function() {
+				$(this).css('background', 'url(../img/backyellow.png)');
+				$(this).find('.describe-time').css('color', '#fffff');
+				$(this).find('.describe-time').css('border-bottom', '1px #dda020 solid');
+				$(this).find('.describe-detail').css('color', '#ffffff');
+			});
+			$(".describe").mouseleave(function() {
+				$(this).css('background', 'url(../img/backgray.png)');
+				$(this).find('.describe-time').css('color', '#968780');
+				$(this).find('.describe-time').css('border-bottom', '1px #ffffff solid');
+				$(this).find('.describe-detail').css('color', '#968780');
+			});
+		</script>
+	</body>
+
+</html>

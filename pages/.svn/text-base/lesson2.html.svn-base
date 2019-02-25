@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="zh-cn">
+	<!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面。-->
+		<title>候么外卖餐官网</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="外卖，候么外卖，厨房，中心厨房，家庭厨房，送餐，吃饭，创业，加盟代理">
+		<meta name="author" content="徐州候么餐饮管理有限公司" />
+		<meta name="Copyright" content="徐州候么餐饮管理有限公司" />
+		<meta name="description" content="徐州候么餐饮管理有限公司是一家从事互联网本地生活服务平台的产品公司。2017年推出候么外卖平台，候么外卖，可以直播的外卖，告别餐馆味道，告别固定菜谱，统一公开的采购，宝宝再也不用担心吃腻，更不用担心黑作坊不卫生不健康了。快来加盟候么外卖吧，现各市诚邀加盟代理">
+
+		<link rel="shortcut icon" href="../favicon.ico">
+		<!-- Google Webfont -->
+		<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'> -->
+		<!-- Themify Icons -->
+		<link rel="stylesheet" href="../css/themify-icons.css">
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/owl.carousel.min.css">
+		<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="../css/magnific-popup.css">
+		<link rel="stylesheet" href="../css/superfish.css">
+		<link rel="stylesheet" href="../css/easy-responsive-tabs.css">
+		<link rel="stylesheet" href="../css/animate.css">
+		<!-- Theme Style -->
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/culture.css">
+		<link rel="stylesheet" href="../css/kaidian.css">
+		<!-- Modernizr JS -->
+		<script src="../js/modernizr-2.6.2.min.js"></script>
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+			<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<style>
+			.row {
+				margin: 0;
+			}
+			
+			.col-xs-1,
+			.col-sm-1,
+			.col-md-1,
+			.col-lg-1,
+			.col-xs-2,
+			.col-sm-2,
+			.col-md-2,
+			.col-lg-2,
+			.col-xs-3,
+			.col-sm-3,
+			.col-md-3,
+			.col-lg-3,
+			.col-xs-4,
+			.col-sm-4,
+			.col-md-4,
+			.col-lg-4,
+			.col-xs-5,
+			.col-sm-5,
+			.col-md-5,
+			.col-lg-5,
+			.col-xs-6,
+			.col-sm-6,
+			.col-md-6,
+			.col-lg-6,
+			.col-xs-7,
+			.col-sm-7,
+			.col-md-7,
+			.col-lg-7,
+			.col-xs-8,
+			.col-sm-8,
+			.col-md-8,
+			.col-lg-8,
+			.col-xs-9,
+			.col-sm-9,
+			.col-md-9,
+			.col-lg-9,
+			.col-xs-10,
+			.col-sm-10,
+			.col-md-10,
+			.col-lg-10,
+			.col-xs-11,
+			.col-sm-11,
+			.col-md-11,
+			.col-lg-11,
+			.col-xs-12,
+			.col-sm-12,
+			.col-md-12,
+			.col-lg-12 {
+				padding: 0;
+			}
+			
+			.lesson {
+				padding: 0;
+			}
+			
+			.lesson_content {
+				border: 1px #ccc solid;
+				background: #fff;
+				padding: 25px 25px;
+				margin-bottom: 10px;
+			}
+			
+			.lesson_content h2 {
+				text-align: center;
+				padding: 0;
+				margin: 0;
+			}
+			
+			.lesson_content h4 {
+				padding: 0;
+				margin: 0;
+				font-size: 18px;
+				color: #333;
+			}
+			
+			.lesson_content .time {
+				text-align: center;
+				font-size: 14px;
+				padding-bottom: 20px;
+				border-bottom: 1px #999 dashed;
+			}
+			
+			.lesson_content .content_p p {
+				font-size: 14px;
+				margin: 15px 0;
+				text-indent: 20px;
+				color: #666;
+			}
+			
+			.floatl {
+				float: left;
+			}
+			
+			.floatr {
+				float: right;
+			}
+			
+			.clear {
+				clear: both;
+				width: 100%;
+				height: 0;
+			}
+			
+			.lesson_lists {
+				margin: 0;
+				padding: 0 25px;
+			}
+			
+			.lesson_lists .shiti {
+				margin-bottom: 30px;
+			}
+			
+			.lesson_lists h4 {
+				padding: 0;
+				margin: 0 0 10px 0;
+				font-size: 18px;
+			}
+			
+			.lesson_lists ul {
+				border: 1px #ccc solid;
+				border-bottom: none;
+				background: #fff;
+			}
+			
+			.lesson_lists ul li {
+				border-bottom: 1px #ccc solid;
+				padding: 10px 20px;
+			}
+			
+			.lesson_lists ul li img {
+				padding-right: 10px;
+			}
+			
+			.img-cen img {
+				width: 100%;
+			}
+			
+			.text-lins p {
+				line-height: 60px;
+			}
+			@media screen and (max-width: 768px) {
+				.floatr{
+					float: left;
+				}
+				.lesson_lists ul li img{
+					padding-top: 9px;
+				}
+				.text-lins p{
+					line-height: 25px;
+				}
+			}
+		.qsa{
+			
+			
+		}	
+		</style>
+	</head>
+
+	<body>
+		<!-- START #fh5co-header -->
+		<header id="fh5co-header-section" role="header" style="background: #ffd02e;">
+			<div class="container">
+				<h1 id="fh5co-logo" class="pull-left"><a href="../index.html"><img src="../images/logo.png" alt="候么外卖"></a></h1>
+				<nav id="fh5co-menu-wrap" role="navigation">
+					<ul class="sf-menu" id="fh5co-primary-menu">
+						<li>
+							<a href="../index.html">首页</a>
+						</li>
+						<li>
+							<a href="culture.html">走进我们</a>
+						</li>
+						<li>
+							<a href="hezuo.html">招商合作</a>
+						</li>
+						<li>
+							<a href="project.html">项目简介</a>
+						</li>
+						<li class="active">
+							<a href="new-shang.html">商学院</a>
+						</li>
+						<li>
+							<a href="contactus.html">联系我们</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="fh5co-hero" style="background-image: url(../images/wsaf.png);">
+			<!-- End fh5co-arrow -->
+			<div class="container">
+				<div class="col-md-12">
+					<div class="fh5co-hero-wrap">
+						<div class="fh5co-hero-intro">
+							<h1 class="to-animate hero-animate-1">厨房商学院</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div id="fh5co-main" style="padding-bottom: 55px;background: #f7f7f7;">
+			<div class="container-fluid lesson">
+				<div class="row" style="margin:30px 0;">
+					<div class="col-xs-12 col-lg-6 col-lg-offset-1 lesson_content">
+						<h2>如何开餐馆</h2>
+						<p class="time">发表于：<span>2017-05-26</span>&nbsp;|&nbsp;浏览：<span>0</span></p>
+						<div class="img-cen"><img src="../images/2.jpg"></div>
+						<div class="content_p">
+							<p>
+								<h3>开餐馆需要怎么办理审批手续</h3></p>
+							<p>申请开餐馆需要前置审批，即在工商部门拿到营业执照前，必须先得到卫生许可证和环保部门的排污许可证。</p>
+							<p>以个体工商户开一家小餐馆为例，具体程序是这样的：先拿身份证原件及复印件到当地工商所登记名称，记住这只是登记一个名称，还没到申领工商营业执照的时候。因为在领取工商执照之前，必须先到辖区内的环保部门和卫生监督所申领排污许可证和卫生许可证。</p>
+							<p>排污许可证的申领：先到辖区环保局办证处申请，受理后，工作人员会上门去检查指导。领取排污许可证的两个必须条件是：楼上不能有居民住宅；污水要能纳入市政污水管道。上门检查的工作人员会根据营业面积的大小来决定装何种抽油烟机。自己买了家用的抽油烟机或者环保没有认可过的抽油烟机都不行。办证处的工作人员提醒：在决定租下一个店面或是装修之前，最好向环保部门咨询一下。比如，有的店主在开店装修时，排烟口或厨房的窗口正好对准了后面的住户，即使管理部门一时不知，后面的居民还是会去投诉，最后往往得再花钱调整。</p>
+							<p>卫生许可证的申领：找到辖区内的卫生监督所申请受理，接着要让餐馆从业人员进行健康检查、接受食品卫生知识培训。在检查和培训合格的前提下，主要看以下几方面：一是卫生设施是否完备，主要指消毒、清洗设施；二是加工场所和营业场所面积比例是否达到。不同地段的餐馆，比例要求会不一样，事先咨询还是必要的。</p>
+							<p>工商营业执照：拿到这两个证后，就可以凭这两个证及相应的房屋租赁证明、身份证，去工商所申请领取工商营业执照了。</p>
+							<p>按照规定，在开业之前，还需要向消防部门进行消防申批，这需要在装修的时候就向所在辖区申请。</p>
+							<p>税务登记：自领取营业执照之日起30日内，要向当地税务局申请领取地税税务登记号。带上营业执照的副本及复印件，还有经营者的身份证。个体工商户开的小餐馆，要交5％的营业税。另外需交城建税、教育附加税，税额是营业税的11％，还有一部分其他的税额，所占份额非常小。</p>
+							<p>
+								<h3>餐馆装修</h3></p>
+							<p>在确定了店面和定位后，就可以进行装修了。顾客的消费需求在上升，店面环境在餐馆中的地位已经越来越高，一个好的环境，有时候可以成为开店成败的关键因素。三四年前，一些大型餐馆以平价和豪华的环境，一举取胜。从去年底开始，许多有特色的中小型餐馆也开始在环境上大做文章。</p>
+							<p>店面环境如何，并不等于投入越多就越好，更多地在于设计。有时候，花不多的钱设计出一堵泥巴墙，来体现自己的土家菜定位，反倒很能吸引顾客。</p>
+							<p>装修是一个很复杂的过程，餐馆的装修和一般的家庭装修不一样，还会涉及到环保、消防等专业问题，装修的过程中请到专业人士，最好在装修开始前就能找到厨师长或有餐馆管理经验的人一起来负责，他们能提供很多建议。</p>
+							<p>餐饮要实现特定的经营目标与利润必须注意以下几点：</p>
+							<p>1.劳动力密集；</p>
+							<p>2.产业关联性大；</p>
+							<p>3.餐饮业多属经营者自营方式；</p>
+							<p>4.产销同时进行；</p>
+							<p>5.商品易腐坏；</p>
+							<p>6.座位环境也包含于商品之中；</p>
+							<p>7.餐厅的选址要适当；</p>
+							<p>8.营业有明显的高峰时段。</p>
+							<p>特色餐饮里，每个菜的毛利都不一样，有的菜可能根本没有利润，只是为了招徕客人，而有的菜的利润却可能非常高。店开出后，得有一套好的财务管理，每天最好要有一个财务报表，以便跟踪了解每天的毛利变化，及时调整菜肴价格和别的措施。</p>
+							<p>家常菜的毛利率是最高的，特别是蔬菜类，因为它的单位成本和零售价格都低，1元钱的原料成本，卖出10元，客人也不会有意见。比如说，现在流行土菜，一个"肉丝炒蕨菜"，原料成本只需要1元，在一些小饭店里，零售价普遍定在10－15元。一个毛毛菜炒芋艿，定价8－12元，原料成本只需2元左右。</p>
+							<p>主做家常菜有个缺点：营业额做不高，最后得到的净利不多。所以，很多餐馆老板在菜单里都会推出一些档次较高的，价位在二三十元以上的菜，比如特色煲类、海鲜类。</p>
+							<p>中等档次的餐馆海鲜毛利可以做到50％至80％。一般来说，常见的海鲜，价格高不上去，比如龙虾，别人卖98元／斤，你卖120元，顾客马上就不接受了。稀有的海鲜，价格打得很高，仍然会有不少顾客会接受。曾经有一个老板进了一整条小鲨鱼，开始时，整条放在大堂海鲜池，标了38元／斤的价格，结果没一个顾客来点。经营者想了个办法，把鲨鱼去头去尾，切成一块一块卖，标价抬高到98元，结果很快就卖完了。这里可以总结出一个消费心理：稀有的东西，卖得太便宜，反而让人怀疑东西的真假；一条大鱼，整条地放着，也会使一些人不敢下手，因为顾客这时候不能确认自己点了后，切下的部位是不是最好的，分块出卖，更合理。</p>
+							<p>
+								<h3>快餐品种的选择</h3></p>
+							<p>品种选择是快餐经营的重要环节，它在一定程度上决定着快餐店经营的成败。适合中式快餐经营的品种主要可分为三大类：</p>
+							<p>第一是饭食类。如炒饭、冒饭、烩饭、盖浇饭等；</p>
+							<p>第二是面条类。如汤面包括杂酱面、煎蛋面、牛肉面等、炒面以及类似于面条的肥肠粉、桂林米粉、云南米线等；</p>
+							<p>第三是面点类。如包子、蒸饺、烧麦、煎饼等。</p>
+							<p>以上这些都是方便快捷的食品，如饭食、面条或米粉，顾客到了以后可以快速制作，而面点则可以事先成批制作好，顾客一到即刻上桌。这样既可使顾客快速就餐而不致久等，同时也提高了快餐店的餐桌利用率，客观上增加了餐馆的营业额。</p>
+							<p>但需要注意的是，任何快餐店经营的品种都不可过多过杂，否则既会使你的快餐店显得没有特色，也无形中加大了厨房的工作量，并且使整个快餐店变得难以运作。</p>
+							<p>这里有两种方案可供选择：</p>
+							<p>一种是一个快餐店只经营一类快餐品种，要么经营饭食，要么经营面条，要么经营面点；</p>
+							<p>另一种是以经营某类快餐品种为主，兼营部分其它两类品种为辅。</p>
+							<p>一个快餐店切不可面面俱到，什么品种都经营，所有的品种加起来最多20种左右就足够了。 </p>
+							<p>
+								<h3>快餐店的定位及选址</h3></p>
+							<p>快餐历来以方便快捷、物美价廉为主要特点，以社会大众为主要服务对象，故任何中式快餐的定位都必须是大众化的、中低档的。档次高了的快餐富人不来吃，穷人又吃不起，即人们常说的“高不成，低不就”。这里以目前成都市的餐饮市场为例，中式快餐除了品种大众化以外，其价位也大都定在10元左右。即一个消费者只需花上10元，就可以吃上一顿快餐。 </p>
+							<p>目前的中式快餐最受工薪阶层,特别是工薪阶层中的白领、学生及流动人口的欢迎，因此，快餐店的位置应选择在工厂、写字楼、商业繁华区、学校等附近工薪阶层或学生集中的地方，以及车站、码头、交通要道等流动人口多的地方，这样才能保证有充足的客源。</p>
+							<p>选址要尽量选在食街或交通干线、商业区、居民区三者的中心位置。选址时要注意分析店面周遍热闹的有效度，也就是说光是热闹是没有用的，要看它周围有没有客源支持。要考察店面是否具备上下水、照明电、动力电和排风、排烟系统。</p>
+							<p>要知道，人们吃快餐图的就是方便快捷，因此一般不会走很远的路或者乘车去吃一顿快餐。如此看来，如果快餐店周围没有可观的消费群体，最好改换门庭。</p>
+							<p>
+								<h3>快餐店的规模及装修</h3></p>
+							<p>由于中式快餐还处于起步阶段，所以目前中式快餐店的规模都不大。一般来说，一家快餐店的店堂不包括厨房面积达到30平方米左右即可营业，店堂面积达到60平方米以上即可视为中等规模的快餐店，而店堂面积在100平方米以上就算是规模较大的快餐店了。快餐店的规模较小有两个好处，一是可以节省开店初期的投资，二是可以避免生意清淡时店堂面积的浪费。</p>
+							<p>因为快餐毕竟是一种现代化的经营模式，所以中式快餐店的装修、店堂及厨房设施等，都应该尽显现代化特色。中式快餐店的装修应采用简单的格调、明快的色泽，给顾客一种轻松愉悦的感觉； 店堂内的桌椅可采用西式快餐店的卡式桌椅，这样既富有时代感，又能最大限度地利用店堂有限的空间；厨房也应尽量采用不锈钢等材料制成的厨具设施，给顾客以一种清洁卫生的印象。</p>
+							<p>
+								<h3>快餐店的经营管理</h3></p>
+							<p>众所周知，西式快餐店有一套完善的、成熟的经营管理制度和流程，而目前还处于起步阶段的中式快餐店，特别是那些自由择业者或下岗工人为了谋生而开的小型中式快餐店，如果要他们去采用哪种经营管理模式，显然是不切实际的。小型中式快餐店的经营管理归结起来其实只有几句话，那就是老板先选好快餐的品种、选好快餐店的位置、搞好快餐店的装修并安装好快餐店的设施，然后你就找几个厨师及厨工来做厨房，找几个服务员来做前堂，让他们每天做好自己的工作，最后当然是老板亲自收钱。</p>
+							<p>
+								<h3>快餐店的开业登记程序</h3></p>
+							<p>个体工商户开业登记程序分为申请、审查、审批、发照4个步骤。</p>
+							<p>1、申请</p>
+							<p>根据规定，个体工商户(含个人合伙)申请开业登记须提交下列证件：</p>
+							<p>(1)怎样开快餐店申请书。</p>
+							<p>(2)怎样开快餐店申请人及从业人员身份证及职业状况证明。</p>
+							<p>(3)怎样开快餐店个人合伙的合伙人对出资数额、盈余分配、债务承担、入伙、退伙、合伙终止等事项订立的书面协议。</p>
+							<p>(4)怎样开快餐店与帮手、学徒签订的书面合同。</p>
+							<p>(5)经营场地使用证明。(自有房提供产权证明，非自有房提供产权单位证明和承租协议)</p>
+							<p>(6)从事关系人身健康、生命安全等行业的学徒、帮手的保险凭证。</p>
+							<p>(7)国家有专项规定的许可证或有关部门的审批证件。</p>
+							<p>(8)育龄人员的计划生育证明。</p>
+							<p>(9)登记机关认为应提交的其他证件。</p>
+							<p>2、审查</p>
+							<p>申请人提交的证件齐全后，登记主管机关查验有关证明，手续完备的，发给《个体工商户申请开业登记表》，由申请人如实填写。手续不完备的，通知申请人补办。</p>
+							<p>3、审批</p>
+							<p>登记主管机关受理申请后，对其从业人员、字号名称、场地等主要登记事项进行调查核实，详细填写《开业调查报告》，于受理之日起15个工作日内作出核准或不予核准登记的决定。不符合登记条件的，书面通知申请人。</p>
+							<p>4、发照</p>
+							<p>对核准开业的，由县级工商局分别发给下列执照：(1)经营期限在6个月以上的，核发《营业执照》及副本；(2)经营期限在6个月及6个月以内的，核发《临时营业执照》。《营业执照》及副本、《临时营业执照》必须加盖县级工商局印章。</p>
+							<p>根据国家工商局《关于填发个体工商户营业执照及其副本有关问题的通知》(个字[1988]第4号)的规定，营业执照填写字迹要清晰，各项内容要准确无误。</p>
+							<p>其中，负责人栏个人经营的，填写经营者本人姓名；家庭经营的，填写家庭成员中主要经营者姓名；个人合伙，填写合伙人共同推举的负责人姓名。经济性质栏填写</p>
+							<p>“个体工商户(个人经营)”或“个体工商户(家庭经营)”；个人合伙填写“个人合伙”。其他项目的填写必须与核准的登记内容一致。营业执照一律打印或用毛笔填写。 </p>
+							<p>
+								<h3>快餐店的经营注意事项 </h3></p>
+							<p>快餐店经营管理中的注意事项快餐店除了物美价廉之外，方便快捷和整洁卫生算是其另一个主要特点。无论是厨房的厨师，还是前堂的服务员，动作都一定要熟练快速，以满足顾客来了就吃，吃完就走的需求。快餐店的全体人员既要分工明确，又要相互配合，那样才能达到整体快捷的效果。快餐店的店堂、桌椅、餐具、厨具等都要勤于打扫，工作人员还要注意个人卫生，总之要随时保持快餐店整洁舒适的形象。 具体须注意以下四点： 　 </p>
+							<p>1、开快餐店当然首要条件是地段，你总不能到小区住宅那样的地方去开吧，大家天天都回家吃饭哪还会花钱来光顾。</p>
+							<p>2、快餐店要讲求经济实惠，因为这是快餐店最吸引人的地方，但要注意的是在你达到经济实惠的同时可要注意饭菜的质量等问题。</p>
+							<p>3、这其次的当然是口味问题，要会根据各个地方的大众口味提供不同的食物。</p>
+							<p>4、服务质量，虽然大家都是图方便省事，可没谁愿意吃受气的饭，所以服务质量得一定抓好。</p>
+						</div>
+						<div class="floatl">上一课：
+							<a href="lesson1.html">实体店如何规避选址风险</a>
+						</div>
+						<div class="floatr">下一课：
+							<a href="lesson3.html">餐饮店有哪些运营好方法</a>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="col-xs-12 col-lg-3 lesson_lists">
+						<div class="shiti">
+							<h4>实体店课堂</h4>
+							<ul>
+								<li class="row text-lins">
+									<a href="lesson1.html">
+										<img src="../images/1.jpg" alt="" class="col-xs-4" />
+										<p class="col-xs-8">实体店如何规避选址风险</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson2.html">
+										<p>如何开餐馆</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson3.html">
+										<p>餐饮店有哪些运营好方法</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson4.html">
+										<p>现今最流行的九种餐饮经营模式，哪一种适合你？</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson5.html">
+										<p>开实体店的准备工作</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson6.html">
+										<p>如何成就一个品牌? 定义市场、创造惊喜……</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="chufang">
+							<h4>厨房课堂</h4>
+							<ul>
+								<li class="row">
+									<a href="cooklist_1.html">
+										<img src="../images/cookfood1.jpg" alt="" class="col-xs-4" />
+										<p class="col-xs-8">第一课：如何制作美味的虎皮青椒</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_2.html">
+										<p>第二课：卤肉饭的制作方法</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_3.html">
+										<p>第三课：制作美味菠萝古老肉</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_4.html">
+										<p>第四课：家乡豆腐的制作方法</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_5.html">
+										<p>第五课：酸辣面的做法</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_6.html">
+										<p>第六课：制作鱼香茄子的做法</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--row结束-->
+			</div>
+		</div>
+		<!-- END fhtco-main -->
+		<footer role="contentinfo" id="fh5co-footer">
+			<a href="javascript:;" class="fh5co-arrow fh5co-gotop footer-box"><i class="ti-angle-up"></i></a>
+			<div class="container">
+				<div class="row ">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-offset-3 col-md-2 erweima">
+						<img src="../images/qcode.png" />
+						<p>用户端app下载</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-2 erweima">
+						<img src="../images/qcode-2.png" />
+						<p>商家端app下载</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-2 erweima">
+						<img src="../images/qcode-3.png" />
+						<p>关注微信公众号</p>
+					</div>
+					<div class="links col-md-12" style="clear: both;">
+						友情链接：
+						<a href="http://www.qq.com/">腾讯</a>
+						<a href="http://sohu.com">搜狐</a>
+						<a href="http://shuidi.huajiao.com/pc/view.html?sn=36081769182">水滴直播</a>
+						<a href="http://www.chgop.com/">塑料瓶</a>
+						<a href="http://www.shqlpack.com/">包装盒厂家</a>
+						<a href="http://www.jsddwx.cn/">江诗丹顿售后维修</a>
+
+					</div>
+					<div class="col-md-12  text-center" style="clear: both;">
+						<div class="fh5co-copyright">
+							<p>&copy; 2017 徐州候么餐饮管理有限公司 houmewaimai.com 苏ICP备17060673号-1</p>
+						</div>
+					</div>
+				</div>
+				<div class="fh5co-spacer fh5co-spacer-md"></div>
+			</div>
+		</footer>
+		<script src="../js/jquery-1.10.2.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/owl.carousel.min.js"></script>
+		<script src="../js/jquery.magnific-popup.min.js"></script>
+		<script src="../js/hoverIntent.js"></script>
+		<script src="../js/superfish.js"></script>
+		<script src="../js/easyResponsiveTabs.js"></script>
+		<script src="../js/fastclick.js"></script>
+		<!--<script src="../js/jquery.parallax-scroll.min.js"></script>-->
+		<script src="../js/jquery.waypoints.min.js"></script>
+		<script src="../js/main.js"></script>
+		<script>
+			$(function() {
+				function myBrowser() {
+					var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+					var isOpera = userAgent.indexOf("Opera") > -1; //判断是否Opera浏览器
+					var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera; //判断是否IE浏览器
+					var isFF = userAgent.indexOf("Firefox") > -1; //判断是否Firefox浏览器
+					var isSafari = userAgent.indexOf("Safari") > -1; //判断是否Safari浏览器
+					if(isIE) {
+						var IE5 = IE55 = IE6 = IE7 = IE8 = false;
+						var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+						reIE.test(userAgent);
+						var fIEVersion = parseFloat(RegExp["$1"]);
+						IE55 = fIEVersion == 5.5;
+						IE6 = fIEVersion == 6.0;
+						IE7 = fIEVersion == 7.0;
+						IE8 = fIEVersion == 8.0;
+						if(IE55) {
+							return "IE55";
+						}
+						if(IE6) {
+							return "IE6";
+						}
+						if(IE7) {
+							return "IE7";
+						}
+						if(IE8) {
+							return "IE8";
+						}
+					} //isIE end
+					if(isFF) {
+						return "FF";
+					}
+					if(isOpera) {
+						return "Opera";
+					}
+				} //myBrowser() end
+				//以下是调用上面的函数
+				if(myBrowser() == "IE8") {
+					$("#fh5co-hero").css({
+						"display": "block",
+						"background-image": "url(../images/wsaf.png)"
+					});
+					$(".bor-rad").css({
+						"display": "none"
+					});
+					$(".yms-text").css("height", "auto")
+					$(".kosm").css("height", "400px")
+					$(".img-cen").css("width", "50%")
+					$(".item>.img-box:nth-last-child(2)").css("margin-right", "0px")
+				} else {
+
+				}
+
+				//				分页
+
+			})
+		</script>
+
+	</body>
+
+</html>

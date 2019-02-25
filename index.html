@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面。-->
+		<title>候么外卖官网</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="外卖，候么外卖，厨房，中心厨房，家庭厨房，送餐，吃饭，创业，加盟代理">
+		<meta name="author" content="徐州候么餐饮管理有限公司" />
+		<meta name="Copyright" content="徐州候么餐饮管理有限公司" />
+		<meta name="description" content="徐州候么餐饮管理有限公司是一家从事互联网本地生活服务平台的产品公司。2017年推出候么外卖平台，候么外卖，可以直播的外卖，告别餐馆味道，告别固定菜谱，统一公开的采购，宝宝再也不用担心吃腻，更不用担心黑作坊不卫生不健康了。快来加盟候么外卖吧，现各市诚邀加盟代理">
+
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="css/themify-icons.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+		<link rel="stylesheet" href="css/superfish.css">
+		<link rel="stylesheet" href="css/easy-responsive-tabs.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- Theme Style -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Modernizr JS -->
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+			<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<style>
+			li {
+				list-style: none;
+			}
+			
+			.youshi li {
+				list-style: none;
+				margin: 19px;
+				text-align: center;
+				position: relative
+			}
+			
+			.youshi li span {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				left:0;
+				top: 50%;
+				margin-top: -0.5em;
+			}
+			
+			.item {
+				position: relative;
+			}
+			
+			.item .fh5co-card-body {
+				position: absolute;
+				left: 0;
+				top: 0;
+				background: rgba(0, 0, 0, 0.6);
+				padding: 10px;
+				width: 100%;
+			}
+			
+			.fh5co-card-body h4 {
+				color: #fff;
+				padding: 10px;
+				margin: 0;
+				text-align: center;
+			}
+			
+			.fh5co-card-body p {
+				font-size: 12px;
+				color: #fff;
+				text-align: center;
+			}
+			
+			.owl-carousel-fullwidths {
+				position: relative;
+			}
+			
+			.afh5co-cards {
+				background: url(images/wedo-01.png) no-repeat;
+				background-size: auto 100%;
+				padding: 2em 0;
+			}
+			
+			.row .lunbo {
+				margin: 10px 0;
+				padding: 0 13px;
+				position: relative;
+			}
+			
+			.row .lunbo .lunbo_wenzi {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				z-index: 10;
+				font-size: 16px;
+				padding: 0 13px;
+				text-align: center;
+				background: rgba(0, 0, 0, 0.6);
+				background-clip: content-box;
+			}
+			
+			.row .lunbo .lunbo_wenzi h4 {
+				color: #fff;
+				padding: 10px;
+				margin: 0;
+			}
+			
+			.row .lunbo .lunbo_wenzi p {
+				font-size: 12px;
+				color: #fff;
+			}
+			/*直播*/
+			
+			.zhibo {
+				background: #f7f7f7;
+				padding-bottom: 30px;
+			}
+			
+			.zhibo .zhibo_title {
+				padding-top: 30px;
+			}
+			
+			.zhibo .zhibo_body {
+				padding: 0;
+			}
+			
+			@media only screen and (min-width: 992px) {
+				.zhibo .zhibo_body .zhibolists {
+					padding-left: 25px;
+				}
+			}
+			
+			.zhibo .zhibo_body ul .zhibolist {
+				background: #ddd;
+				padding: 10px;
+				position: relative;
+				/*border-left: 4px transparent solid;*/
+				position: relative;
+			}
+			
+			.zhibo .zhibo_body ul .zhibolist div {
+				padding: 0 0 0 5px;
+			}
+			
+			.zhibo .zhibo_body ul .zhibolist div p {
+				width: 100%;
+				text-overflow: ellipsis;
+				white-space: normal;
+				overflow: hidden;
+				margin: 0;
+			}
+			
+			.zhibo .zhibo_body ul .zhibolist .active {
+				background: red;
+				position: absolute;
+				left: 0;
+				top: 10%;
+				height: 80%;
+				width: 5px;
+			}
+			
+			.row {
+				margin: 0;
+			}
+			/*新闻*/
+			
+			.xinwen {
+				background: #fff;
+				padding: 30px 0;
+			}
+			
+			.xinwen .xinwen_title {
+				/*padding-top: 30px;*/
+			}
+			
+			.xinwen_body_center .center_left {
+				width: 48%;
+				float: left;
+			}
+			
+			.xinwen_body_center .center_right {
+				width: 48%;
+				float: right;
+			}
+			
+			.xinwen_body_center dt img {
+				width: 100%;
+			}
+			
+			.xinwen_body_center dd {
+				margin-top: 10px;
+			}
+			
+			.xinwen_body_center .riqi {
+				/*width: 20%;*/
+				background: #ddd;
+				text-align: center;
+				/*float: left;*/
+			}
+			
+			.xinwen_body_center .riqi p {
+				font-size: 26px;
+				margin: 0;
+				text-align: center;
+			}
+			
+			.xinwen_body_center .riqi i {
+				font-size: 12px;
+			}
+			
+			.xinwen_body_center .xinwen_content {
+				/*width: 78%;*/
+				/*float: right;*/
+			}
+			
+			.xinwen_body_center .xinwen_content h5 {
+				font-size: 22px;
+			}
+			
+			.xinwen_body_list {
+				border: 1px #ddd solid;
+				padding: 5px;
+				margin: 3px;
+			}
+			
+			.xinwen_body_list div {
+				padding-left: 5px;
+			}
+			
+			.xinwen_body_list h5 {
+				font-size: 18px;
+				color: green;
+				margin: 0;
+			}
+			
+			.xinwen_body_list i {
+				font-size: 12px;
+				color: #999;
+			}
+			
+			.xinwen_body_list p {
+				font-size: 16px;
+				color: #666;
+				margin: 0;
+			}
+			/*合作*/
+			
+			.hezuo {
+				background: #f7f7f7;
+				padding: 30px 0;
+			}
+			
+			.hezuo .hezuo_content li {
+				padding: 10px;
+			}
+			/*悬浮联系方式*/
+			
+			.xuanfu {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+			
+			@media only screen and (max-width: 767px) {
+				.xuanfu {
+					display: none;
+				}
+			}
+			
+			.xuanfu div {
+				width: 80px;
+				height: 80px;
+				background: #999 url(images/lianxi.png) no-repeat;
+				margin-top: 10px;
+				border-radius: 4px;
+			}
+			
+			.xuanfu .dianhua {
+				background-position: 0 -80px;
+			}
+			
+			.col-xs-1,
+			.col-sm-1,
+			.col-md-1,
+			.col-lg-1,
+			.col-xs-2,
+			.col-sm-2,
+			.col-md-2,
+			.col-lg-2,
+			.col-xs-3,
+			.col-sm-3,
+			.col-md-3,
+			.col-lg-3,
+			.col-xs-4,
+			.col-sm-4,
+			.col-md-4,
+			.col-lg-4,
+			.col-xs-5,
+			.col-sm-5,
+			.col-md-5,
+			.col-lg-5,
+			.col-xs-6,
+			.col-sm-6,
+			.col-md-6,
+			.col-lg-6,
+			.col-xs-7,
+			.col-sm-7,
+			.col-md-7,
+			.col-lg-7,
+			.col-xs-8,
+			.col-sm-8,
+			.col-md-8,
+			.col-lg-8,
+			.col-xs-9,
+			.col-sm-9,
+			.col-md-9,
+			.col-lg-9,
+			.col-xs-10,
+			.col-sm-10,
+			.col-md-10,
+			.col-lg-10,
+			.col-xs-11,
+			.col-sm-11,
+			.col-md-11,
+			.col-lg-11,
+			.col-xs-12,
+			.col-sm-12,
+			.col-md-12,
+			.col-lg-12 {
+				padding: 0;
+			}
+			
+			.xinwen_content h5 a {
+				color: #333;
+			}
+			
+			.links {
+				height: auto;
+				margin: 0 auto 0px auto;
+				font-size: 16px;
+				line-height: 50px;
+				border-bottom: 1px #444 solid;
+				text-align: center;
+			}
+			
+			.links a {
+				color: #fff;
+				border: 0px;
+				display: inline-block;
+				margin-left: 15px;
+				margin-right: 15px;
+				font-size: 14px;
+			}
+		@media screen and (min-width: 319px) and (max-width: 910px){
+				.youshi li span {
+				left:12%!important;
+				margin-top: -1em;
+				}
+			.center_left{
+				width:95%!important;
+				margin: 0 auto!important;
+				float: none!important;
+			}
+			.center_right{
+				width:95%!important;
+				margin: 0 auto!important;
+				float: none!important;				
+			}
+			.xinwen_body_center .xinwen_content{
+				margin-top: 8px;
+			}
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<header id="fh5co-header-section" role="header" style="background: #ffd02e;">
+			<div class="container">
+				<h1 id="fh5co-logo" class="pull-left"><a href="index.html"><img src="images/logo.png" alt="候么外卖"></a></h1>
+				<nav id="fh5co-menu-wrap" role="navigation">
+					<ul class="sf-menu" id="fh5co-primary-menu">
+						<li class="active">
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="pages/culture.html">走进我们</a>
+						</li>
+						<li>
+							<a href="pages/hezuo.html">招商合作</a>
+						</li>
+						<li>
+							<a href="pages/project.html">项目简介</a>
+						</li>
+						<li>
+							<a href="pages/new-shang.html">商学院</a>
+						</li>
+						<li>
+							<a href="pages/contactus.html">联系我们</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<div id="fh5co-hero" style="background-image: url(images/indexbg.png);">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="fh5co-hero-wrap">
+						<div class="fh5co-hero-intro">
+							<div class="to-animate hero-animate-1 h1">心的制作，家的味道</div>
+							<h2 class="to-animate hero-animate-2">一个可以直播的外卖，销量用户双增长的同时温暖你的胃！</h2>
+							<p class="to-animate hero-animate-3">
+								<a href="pages/hezuo.html" class="btn btn-outline btn-md">立即加入/JOIN US</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-main">
+			<div class="container-fluid" style="padding: 0;">
+				<div class="row" id="fh5co-works" style="padding: 40px;">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-section-heading ">
+						<h2 class="fh5co-lead">我们不是一家传统的外卖</h2>
+						<p class="fh5co-sub">候么外卖在商业模式上是创新的，首次提出“O2O+B2C”的互联网+自建实体的模式，而实现此模式的具体办法就是建设“家庭式中心厨房”。自主研发APP+自建厨房+自主配送，产业链式的运营模式，更具体系化、标准化，提高了监管的透明度。实时直播与“家庭式”概念为消费者带来安全可靠的“家的味道”。</p>
+
+					</div>
+				</div>
+				<div class="row" style="padding: 40px;background:url(images/youshibg-01.png);">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-section-heading work-box">
+						<h2 class="fh5co-lead">我们的优势</h2>
+
+						<ul class="row youshi">
+							<li class="col-sm-5 youshi1"><img src="images/youshi1.png" style="width: 100%;" /><span>01.“家庭式”理念</span></li>
+							<li class="col-sm-5 youshi2"><img src="images/youshi2.png" style="width: 100%;" /><span>02.透明化监管</span></li>
+							<li class="col-sm-5 youshi3"><img src="images/youshi3.png" style="width: 100%;" /><span>03.独立移动端</span></li>
+							<li class="col-sm-5 youshi4"><img src="images/youshi4.png" style="width: 100%;" /><span>04.利润最大化</span></li>
+							<li class="col-sm-5 youshi5"><img src="images/youshi5.png" style="width: 100%;" /><span>05.加盟门槛低</span></li>
+							<li class="col-sm-5 youshi6"><img src="images/youshi6.png" style="width: 100%;" /><span>06.品牌宣传力度大</span></li>
+							<li class="col-sm-5 youshi7"><img src="images/youshi7.png" style="width: 100%;" /><span>07.灶位空间大</span></li>
+							<li class="col-sm-5 youshi1"><img src="images/youshi1.png" style="width: 100%;" /><span>08.总部全程支持</span></li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+			<!--轮播图开始-->
+			<div class="afh5co-cards container-fluid animate-box" id="fh5co-features">
+				<div class="row">
+					<div class="col-md-11 col-md-offset-1" style="background: white;box-shadow:5px 5px 10px 1px #ddd;">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1">
+								<div class="text-center">
+									<h2 style="margin:1.5em;">我们做到的</h2>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1 feature-box">
+								<div class="col-md-3 col-sm-6 col-xs-12 lunbo ">
+									<div class="owl-carousel owl-carousel-fullwidths" style="border-top: 3px red solid;">
+										<div class="item">
+											<a class="" href="javascript:;">
+												<img src="images/wedo1.png" class="img-responsive">
+
+											</a>
+										</div>
+										<div class="item">
+											<a class="" href="javascript:;">
+												<img src="images/wedo2.png" class="img-responsive">
+											</a>
+										</div>
+										<div class="item">
+											<a class="" href="javascript:;">
+												<img src="images/wedo3.png" class="img-responsive">
+											</a>
+										</div>
+									</div>
+									<div class="lunbo_wenzi">
+										<h4 style="color: red;">透鲜的食材</h4>
+										<p>一站式采购，当天采购当天使用，隔天弃用</p>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-6 col-xs-12 lunbo">
+									<div class="owl-carousel owl-carousel-fullwidths" style="border-top: 3px yellow solid;">
+										<div class="item">
+											<a class="" href="javascript:;">
+												<img src="images/wedo4.png" class="img-responsive">
+
+											</a>
+										</div>
+										<div class="item">
+											<a class="" href="javascript:;">
+												<img src="images/wedo5.png" class="img-responsive">
+											</a>
+										</div>
+										<div class="item">
+											<a class="" href="javascript:;">
+												<img src="images/wedo6.png" class="img-responsive">
+											</a>
+										</div>
+									</div>
+									<div class="lunbo_wenzi">
+										<h4 style="color: yellow;">品质把控</h4>
+										<p>中心厨房聘请全国各地的“家庭厨神”烹制拿手菜,满足您的味蕾</p>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-6 col-xs-12 lunbo">
+									<div class="owl-carousel owl-carousel-fullwidths" style="border-top: 3px greenyellow solid;">
+										<div class="item">
+											<a class="" href="javascript:;">
+												<img src="images/wedo7.png" class="img-responsive">
+
+											</a>
+										</div>
+										<div class="item">
+											<a class="" href="javascript:;">
+												<img src="images/wedo8.png" class="img-responsive">
+											</a>
+										</div>
+										<div class="item">
+											<a class="" href="javascript:;">
+												<img src="images/wedo9.png" class="img-responsive">
+											</a>
+										</div>
+									</div>
+									<div class="lunbo_wenzi">
+										<h4 style="color: greenyellow;">敞亮的厨房</h4>
+										<p>小锅小灶只为烹制家的味道，跟外卖的千篇一律说再见</p>
+									</div>
+								</div>
+
+								<div class="col-md-3 col-sm-6 col-xs-12 lunbo">
+									<div class="owl-carousel owl-carousel-fullwidths" style="border-top: 3px deepskyblue solid;">
+										<div class="item">
+											<a class="" href="javascript:;">
+												<img src="images/wedo10.png" class="img-responsive">
+
+											</a>
+										</div>
+										<div class="item">
+											<a class="" href="javascript:;">
+												<img src="images/wedo11.png" class="img-responsive">
+											</a>
+										</div>
+										<div class="item">
+											<a class="" href="javascript:;">
+												<img src="images/wedo12.png" class="img-responsive">
+											</a>
+										</div>
+									</div>
+									<div class="lunbo_wenzi">
+										<h4 style="color:deepskyblue">精准服务</h4>
+										<p>飞驰的骑手无论刮风下雨为您准时送达</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--轮播图结束-->
+
+			<!--直播开始-->
+			<div class="zhibo container-fluid animate-box">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 zhibo_title">
+						<div style="text-align: center;">
+							<h2>全程直播，光明正大做家的味道</h2>
+							<p>厨房配备4至10个高清摄像设备，在“候么外卖APP”上实现厨房24小时全时段直播。</p>
+							<p>全民监管、全民监督、全民监控杜绝黑厨房黑料理。</p>
+						</div>
+					</div>
+					<div class="col-md-9 col-md-offset-2 zhibo_body">
+						<div class="row">
+							<!--<div class="col-md-7 col-sm-12 col-xs-12" style="position:relative;">
+								<iframe style="position:absolute;width:100%;height:100%" src="https://shuidi.huajiao.com/pc/player_autosize.html?sn=36081769182&channel=hide" border=0></iframe>
+								<img src="images/shuiditu.gif" style="width:100%;visibility:hidden;" />
+							</div>-->
+							<div class="col-md-7 col-sm-12 col-xs-12" style="position:relative;">
+								<img src="images/zhib.png"/  style="position:absolute;width:100%;">
+							</div>
+							<ul class="col-md-4 col-sm-12 col-xs-12 zhibolists">
+								<li class="row zhibolist" date="https://shuidi.huajiao.com/pc/player_autosize.html?sn=36081769182&channel=hide">
+									<img src="images/chufanglist.png" class="col-xs-4">
+									<div class="col-xs-8">
+										<i>厨房直播间</i>
+										<p>鼓楼区2号厨房</p>
+									</div>
+									<div class="active"></div>
+								</li>
+								<li class="row zhibolist" date="https://shuidi.huajiao.com/pc/player_autosize.html?sn=36081769182&channel=hide">
+									<img src="images/chufanglist.png" class="col-xs-4">
+									<div class="col-xs-8">
+										<i>厨房直播间</i>
+										<p>鼓楼区2号厨房</p>
+									</div>
+									<div></div>
+								</li>
+								<li class="row zhibolist" date="https://shuidi.huajiao.com/pc/player_autosize.html?sn=36081769182&channel=hide">
+									<img src="images/chufanglist.png" class="col-xs-4">
+									<div class="col-xs-8">
+										<i>厨房直播间</i>
+										<p>鼓楼区2号厨房</p>
+									</div>
+									<div></div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!--直播结束-->
+			<!--新闻开始-->
+			<div class="xinwen container-fluid animate-box">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 xinwen_title">
+						<div style="text-align: center;">
+							<h2>新闻与推荐</h2>
+						</div>
+					</div>
+					<div class="col-md-9 col-md-offset-2 xinwen_body">
+						<div class="row">
+							<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+								<h3 class="xinwen_body_title">企业新闻</h3>
+								<div class="xinwen_body_center">
+									<dl class="center_left">
+										<dt>
+											<img src="images/xinwen1.png" alt="" />
+										</dt>
+										<dd class="row">
+											<div class="riqi col-xs-5 col-sm-4 col-md-3 ">
+												<p>24</p><i>05/2017</i></div>
+											<div class="xinwen_content col-xs-12 col-sm-8 col-md-9 ">
+												<h5><a href="pages/new-list1.html" target="_blank">寄语</a></h5>
+												<p>这个时代是属于我们的，我们的选择是这个时代的要求，中心厨房&候么外卖是这个时代的产物。在食品安全问题横行的年代，在食品添加剂盛行的年代，在“中国体质”被外国人嘲笑的年代，我们要改变，要改变这个行业，要改变这个时代，要改变这个体系.....</p>
+											</div>
+										</dd>
+									</dl>
+									<dl class="center_right">
+										<dt>
+											<img src="images/xinwen1.png" alt="" />
+										</dt>
+										<dd>
+											<div class="riqi col-xs-5 col-sm-4 col-md-3 ">
+												<p>24</p><i>05/2017</i></div>
+											<div class="xinwen_content col-xs-12 col-sm-8 col-md-9 ">
+												<h5><a href="pages/new-list2.html" target="_blank">“我们的菜品很安全”</a></h5>
+												<p>2017年两会上，外卖的食品安全问题被提上议程，加盟外卖平台的商家良莠不齐，餐品加工环节和食材质量监管方面均存在很大的盲点和漏洞，一些黑作坊食品安全问题时有发生，导致消费者对外卖餐品感到乏味......</p>
+											</div>
+										</dd>
+									</dl>
+								</div>
+
+							</div>
+							<ul class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+								<h3 class="xinwen_body_title">新菜推荐</h3>
+								<li class="row xinwen_body_list">
+									<img src="images/cai1.png" class="col-xs-4">
+									<div class="col-xs-8">
+										<h5>下饭的滋味家常菜——酿尖椒</h5>
+										<i>猪肉和尖椒的搭配让你食欲大动</i>
+										<p>鼓楼区B厨房&nbsp;&nbsp;家厨：李阿姨</p>
+									</div>
+									<div class="active"></div>
+								</li>
+								<li class="row xinwen_body_list">
+									<img src="images/cai2.png" class="col-xs-4">
+									<div class="col-xs-8">
+										<h5>自然的馈赠——酸菜小竹笋</h5>
+										<i>清粥小菜细嚼慢咽便是美好时光</i>
+										<p>鼓楼区A厨房&nbsp;&nbsp;家厨：张阿姨</p>
+									</div>
+								</li>
+								<li class="row xinwen_body_list">
+									<img src="images/cai3.png" class="col-xs-4">
+									<div class="col-xs-8">
+										<h5>再来一碗米饭——酸甜咕咾肉</h5>
+										<i>酸酸甜甜的口感抹去夏天的浮躁</i>
+										<p>云龙区B厨房&nbsp;&nbsp;家厨：王大叔</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!--新闻结束-->
+			<!--合作伙伴开始-->
+			<div class="hezuo container-fluid">
+				<div class="row" style="position: relative;">
+					<div class="col-sm-8 col-sm-offset-2 ">
+						<div style="text-align: center;">
+							<h2>合作品牌</h2>
+						</div>
+					</div>
+					<div class="col-sm-8 col-sm-offset-2 hezuo_content">
+						<ul class="row">
+							<li class="col-xs-6 col-sm-4 col-lg-3">
+								<a href="http://www.haitian-food.com/" target="_blank">
+									<img src="images/hezuo1.png" alt="海天" style="width: 100%;">
+								</a>
+							</li>
+							<li class="col-xs-6 col-sm-4 col-lg-3">
+								<a href="http://www.totole.com.cn/" target="_blank">
+									<img src="images/hezuo2.png" alt="太太乐" style="width: 100%;">
+								</a>
+							</li>
+							<li class="col-xs-6 col-sm-4 col-lg-3">
+								<a href="http://www.shuanghui.net/" target="_blank">
+									<img src="images/hezuo3.png" alt="双汇" style="width: 100%;">
+								</a>
+							</li>
+							<li class="col-xs-6 col-sm-4 col-lg-3">
+								<a href="http://www.yurun.com/" target="_blank">
+									<img src="images/hezuo4.png" alt="雨润" style="width: 100%;">
+								</a>
+							</li>
+							<li class="col-xs-6 col-sm-4 col-lg-3">
+								<a href="http://www.fulinmen.com.cn/" target="_blank">
+									<img src="images/hezuo5.png" alt="福临门" style="width: 100%;">
+								</a>
+							</li>
+							<li class="col-xs-6 col-sm-4 col-lg-3">
+								<a href="http://www.laoganma.com.cn/" target="_blank">
+									<img src="images/hezuo6.png" alt="老干妈" style="width: 100%;">
+								</a>
+							</li>
+							<li class="col-xs-6 col-sm-4 col-lg-3">
+								<a href="http://www.dhx.com.cn/" target="_blank">
+									<img src="images/hezuo7.png" alt="稻花香" style="width: 100%;">
+								</a>
+							</li>
+							<li class="col-xs-6 col-sm-4 col-lg-3">
+								<a href="http://www.hengshun.cn/" target="_blank">
+									<img src="images/hezuo8.png" alt="恒顺" style="width: 100%;">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="xuanfu">
+						<div class="youxiang" onclick="alert('邮箱：343935381@qq.com')"></div>
+						<div class="dianhua" onclick="alert('电话：363636369')"></div>
+					</div>
+				</div>
+
+			</div>
+			<!--合作伙伴结束-->
+
+			<div id="fh5co-hero1" class="joinus" style="background-image: url(images/indexbg.png);">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="col-md-12">
+						<div class="fh5co-hero-wrap">
+							<div class="fh5co-hero-intro">
+								<h2 class="to-animate hero-animate-1" style="font-size: 36px;">候么外卖，是您正确的选择</h2>
+								<p class="to-animate hero-animate-3">
+									<a href="pages/hezuo.html" class="btn btn-outline btn-md">立即加入/JOIN US</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- END fhtco-main -->
+		<footer role="contentinfo" id="fh5co-footer">
+
+			<a href="javascript:;" class="fh5co-arrow fh5co-gotop footer-box"><i class="ti-angle-up"></i></a>
+			<div class="container">
+				<div class="row ">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-offset-3 col-md-2 erweima">
+						<img src="images/qcode.png" />
+						<p>用户端app下载</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-2 erweima">
+						<img src="images/qcode-2.png" />
+						<p>商家端app下载</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-2 erweima">
+						<img src="images/qcode-3.png" />
+						<p>关注微信公众号</p>
+					</div>
+					<div class="links col-md-12" style="clear: both;">
+						友情链接：
+						<a href="http://www.qq.com/">腾讯</a>
+						<a href="http://sohu.com">搜狐</a>
+						<a href="http://shuidi.huajiao.com/pc/view.html?sn=36081769182">水滴直播</a>
+						<a href="http://www.chgop.com/">塑料瓶</a>
+						<a href="http://www.shqlpack.com/">包装盒厂家</a>
+						<a href="http://www.jsddwx.cn/">江诗丹顿售后维修</a>
+
+					</div>
+					<div class="col-md-12  text-center" style="clear: both;">
+						<div class="fh5co-copyright">
+							<p>&copy; 2017 徐州候么餐饮管理有限公司 houmewaimai.com 苏ICP备17060673号-1</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="fh5co-spacer fh5co-spacer-md"></div>
+			</div>
+		</footer>
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/hoverIntent.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/easyResponsiveTabs.js"></script>
+		<script src="js/fastclick.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/main.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				function myBrowser2() {
+					var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+					alert(userAgent)
+					var isOpera = userAgent.indexOf("Opera") > -1; //判断是否Opera浏览器
+					var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera; //判断是否IE浏览器
+					var isFF = userAgent.indexOf("Firefox") > -1; //判断是否Firefox浏览器
+					var isSafari = userAgent.indexOf("Safari") > -1; //判断是否Safari浏览器
+					if(isIE) {
+						alert("浏览器版本太低，网站显示效果不好，建议使用最新谷歌浏览器")
+						var IE5 = IE55 = IE6 = IE7 = IE8 = IE9 = false;
+						var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+						reIE.test(userAgent);
+						var fIEVersion = parseFloat(RegExp["$1"]);
+
+						IE55 = fIEVersion == 5.5;
+						IE6 = fIEVersion == 6.0;
+						IE7 = fIEVersion == 7.0;
+						IE8 = fIEVersion == 8.0;
+						IE9 = fIEVersion == 9.0;
+
+						if(IE55) {
+							return "IE55";
+						}
+						if(IE6) {
+							return "IE6";
+						}
+						if(IE7) {
+							return "IE7";
+						}
+						if(IE8) {
+							return "IE8";
+						}
+						if(IE9) {
+							return "IE9";
+						}
+					} //isIE end
+					if(isFF) {
+						return "FF";
+					}
+					if(isOpera) {
+						return "Opera";
+					}
+				}
+
+				myBrowser2();
+			})
+		</script>
+	</body>
+
+</html>

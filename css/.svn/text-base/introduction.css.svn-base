@@ -1,0 +1,142 @@
+.text-ums{
+text-align: center;	
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 1.8em;	
+}
+.cen-min{
+width:7%;
+border:1px solid #FFD02E;	
+}
+.pis-gom{
+width:100%;	
+height:780px;
+background: url(../images/qoms-pis.jpg) no-repeat;	
+position: relative;
+}
+.back-color{
+width:550px;	
+height:236px;
+background: rgba(255,208,46,0.8) ;	
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#9fd5ad29,endColorstr=#9fd5ad29);
+position: absolute;
+right:5%;
+top:38%;
+padding: 3%;
+}
+.mi-text{
+font-size: 2em;	
+color:#5F3100;	
+}
+.im-span span{
+color:#5F3100;	
+display: inline-block;
+margin-right: 8px;	
+}
+.more{
+width:110px;	
+height:30px;	
+border: 1px solid #5F3100;	
+line-height:28px ;
+text-align: center;
+font-size: 0.9em;
+position: absolute;
+right:5%;
+bottom:10%;
+}
+.more a{
+	color:#5F3100;
+}
+.more a:hover{
+	border: 0px;
+}
+.pix-img{
+	background: url(../images/xom-pix.jpg) no-repeat;
+}
+.qm-shia{
+width:30%;	
+height:100%;
+background: rgba(108,67,22,0.8);	
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#9f7b5327,endColorstr=#9f7b5327);
+
+}
+.qm-shia{
+	text-align: center;
+	padding-top: 15%;
+	font-size: 2em;
+	color:#FFD02E;
+}
+.qm-shia a{
+position: absolute!important;	
+top:60%;	
+}
+.qm-shia a:hover{
+border: 0px;
+}
+.wi-cen h3{
+	text-align: center;
+}
+.wi-cen p{
+	text-align: center;
+}
+.play{
+width:49%;	
+height:auto;	
+}
+.play img{
+	width:100%;
+}
+.re-color{
+width:100%;
+height:150px;
+background: #FFD02E;	
+}
+.um-click{
+width:200px;
+margin: 0 auto;	
+font-size: 2em;
+text-align: center;
+padding-top: 18px;	
+border-bottom: 1px solid #5F3100;
+color:#5F3100;
+}
+.cel-click{
+	text-align: center;
+	padding-top: 10px;
+	color:#5F3100;
+}
+.pmda-pix{
+width:49%;	
+}
+.pmda-pix img{
+	width:100%;
+	height:100%;
+}
+@media screen and (max-width: 768px) {
+.pis-gom{
+width:100%!important;	
+height:auto;	
+}	
+.pis-gom .back-color{
+	width:100%;
+	position: static;
+}	
+.qm-shia{
+width:100%;	
+padding-bottom: 60px;
+padding-top: 20px;	
+font-size: 1.8em;
+}
+.qm-shia a{
+top:60%;
+left:50%;
+margin-left: -20px;
+}	
+.play{
+width:100%;	
+}	
+.pmda-pix{
+width:100%;	
+margin-top: 50px;
+}	
+}

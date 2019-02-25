@@ -1,0 +1,345 @@
+body,ul,ol,dl{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+body{
+overflow-x:hidden ;	
+}
+a{
+	text-decoration: none!important;
+	border: 0px;
+}
+.fh5co-cards{
+	background: #fff;
+}
+.clear{
+	clear:both;
+}
+.img-wdith{
+width:100%;	
+height:600px;
+background: url(../images/bing.png) center no-repeat;	
+background-size:100% 100%;
+line-height: 600px;
+text-align: center;
+font-size: 3em;
+color:#fff;
+font-weight: 700;
+text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.5);
+overflow-x:hidden ;
+/**/
+}
+.black-box{
+width:50%;	
+height:60px;	
+line-height: 60px;
+background: rgba(0,0,0,0.6);
+margin-left: -25%;
+position: absolute;
+left:50%;
+bottom:0px;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+z-index: 9999;
+}
+.black-box span:first-child{
+	font-size:2em;
+	color:#fff;
+	margin-left: 1em;
+	margin-right: 0.5em;
+}
+.black-box span:last-child{
+position:relative;	
+top:-4px;
+margin-left:0.4em;	
+font-size: 0.9em;
+}
+.black-box span:last-child a{
+	color:#fff;
+}
+#fh5co-hero{
+/*height:300px!important;*/	
+background-size:cover ;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../images/bing.png',
+    sizingMethod='scale');
+}
+#fh5co-hero .overlay{
+background: none!important;
+position: relative;		
+}
+
+#fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro > h1{
+font-size: 5em;
+color:#fff;
+text-align: center;
+font-weight: 500;
+text-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.5)!important;		
+}
+.container-fluid h2{
+font-size: 1.8em;	
+}
+.pos-left{	
+width:30%;	
+background: url(../images/hen.png) no-repeat right;
+height:50px;
+margin-top: 8px;
+}
+.cen-text{
+width:16%;
+font-size: 2em;
+color:#000000;
+}
+.pos-right{
+	width:30%;
+background: url(../images/hen-2.png) no-repeat left;
+height:50px;
+margin-top: 8px;
+}
+.wid-nix{
+margin: 0 auto;	
+padding-left:19.3%;
+}
+.wi-cen{
+width:60%;	
+margin: 0 auto;
+min-height: 50px;
+padding-bottom:50px;
+margin-top: 25px;
+position: relative;
+}
+.fh5co-cards{
+	padding-top:2em!important;
+	padding-bottom:2em ;
+
+}
+.wi-cen h5{
+font-size: 1.2em;
+font-weight: 700;
+color:#5F3100;	
+}
+.box-ind{
+width:100%;	
+height:110px;
+min-height: 30px;
+margin-left: 2px;
+}
+.fola-box{
+width:20%;	
+height:110px;
+float:left;	
+text-align: center;
+line-height: 110px;
+font-size: 4em;
+font-weight: 700;
+color:#fff;
+background-color:rgba(0,0,0,0.3) ;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+position: relative;
+cursor:pointer;
+}
+
+.bla{
+width:100%;	
+height:50px;
+position: absolute;
+background:url(../images/hue-box.png) top left no-repeat;
+background-size:100% 100% ;
+-ms-background-size:100% 100% ;
+bottom:-6px;
+font-size:13px!important;	
+line-height: 45px;
+
+   
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../images/hue-box.png',
+    sizingMethod='scale');	
+}
+.high{
+width:100%;	
+height:50px;
+position: absolute;
+background:url(../images/high.png) top left no-repeat;
+background-size:100% 100% ;
+-ms-background-size:100% 100% ;
+bottom:-6px;
+font-size:13px!important;	
+line-height: 45px;
+
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../images/high.png',
+    sizingMethod='scale');		
+}
+
+.comscolo{
+background:#FFD02E !important;	
+}
+.kuang{
+width:100%;	
+height:50px;
+position: absolute;
+background:url(../images/kuang.png) top left no-repeat;
+background-size:100% 100% ;
+-ms-background-size:100% 100% ;
+bottom:-6px;
+font-size:13px!important;
+line-height: 45px;	
+
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../images/kuang.png',
+    sizingMethod='scale');
+}
+.comscolo .bla,.comscolo .high{
+background:url(../images/kuang.png) top left no-repeat;	
+width:100%;	
+height:50px;
+position: absolute;
+background-size:100% 100% ;
+-ms-background-size:100% 100% ;
+        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='../images/kuang.png',
+    sizingMethod='scale');
+bottom:-6px;
+font-size:13px!important;
+line-height: 45px;	
+}
+
+.hsd{
+	position: absolute;
+	width:100%;	
+margin: 0 auto;
+opacity:0;
+top:180px;
+ transition:all 0.3s ease-in-out;
+  -webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+}
+.fh5co-spacer{
+
+}
+.hsd-act{
+position: relative!important;	
+opacity:1!important;
+top:10px;
+ transition:all 0.3s ease-in-out;
+  -webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+}
+.item img{
+	width:100%!important;
+}
+.kot{
+		margin-left: 0px!important;
+	margin-right: 0px!important;
+}
+@media screen and (max-width: 768px) {
+.fh5co-cards{
+	padding-bottom: 0.5em;	
+		
+	}
+.wi-cen{
+width:99%;
+margin-top: 0px!important;	
+}
+.fola-box{
+width:20%;	
+font-size: 2em;
+}	
+#fh5co-hero{
+height:200px!important;	
+}
+  #fh5co-hero .fh5co-hero-wrap {
+    padding-top: 18%!important;
+  }
+	.black-box{
+	width:90%;	
+	margin-left: -45%;	
+	}
+	.black-box span:first-child{
+		font-size: 1em;
+	}
+.black-box span:last-child{
+position:relative;	
+top:0px;
+margin-left:0.1em;	
+font-size: 0.7em;
+}
+	#fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro > h1{
+		font-size: 1.8em;
+		
+	}
+	.fh5co-hero-wrap{
+		padding-top: 35%!important;
+	
+
+	}
+	.container-fluid h2{
+	font-size: 1.3em;	
+	}
+	
+	.pos-left{	
+width:30%;	
+background: url(../images/hen.png) no-repeat right;
+height:25px;
+
+}
+.cen-text{
+width:30%;
+font-size: 1em;
+}
+.pos-right{
+	width:30%;
+background: url(../images/hen-2.png) no-repeat left;
+height:25px;
+}
+.wid-nix{
+width:90%;	
+margin: 0 auto;	
+padding-left: 2em;
+}
+.cen-text{
+line-height: 40px;	
+}
+	
+}
+
+@media screen and (min-width: 769px) and (max-width: 1058px) {
+.wi-cen{
+width:99%;	
+}
+#fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro > h1{
+		font-size: 3.9em;
+		
+	}
+.fh5co-cards{
+	padding-bottom: 0.5em;	
+		
+	}
+.cen-text{
+font-size: 1.5em;	
+line-height: 60px;
+}	
+
+}
+
+.old-IE{
+visibility: hidden;
+top:10px;		
+position: absolute!important;		
+}
+.hsd-act-IE{
+position: relative!important;	
+visibility: visible!important;
+top:10px;		
+}
+.jie-img img{
+	width:100%;
+}
+h2.hor_1{
+width:100%;	
+	
+}

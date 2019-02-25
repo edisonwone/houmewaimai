@@ -1,0 +1,107 @@
+a:hover{
+	text-decoration: none!important;
+	border-bottom: 0px!important;
+}
+.width-box{
+width:100%;
+height:432px;
+min-height: 30px;
+margin: 0 auto;	
+margin-bottom: 30px;
+}
+.lef-text{
+	width:70%;
+	height:432px;
+	background: #EEEEEE;
+	padding: 4%;
+	position: relative;
+}
+.rig-img{
+	width:30%;
+	height:432px;
+}
+.rig-img img{
+	width:100%;
+	height:100%;
+}
+.lef-text h4{
+font-size: 1.8em;	
+color:#333333;	
+margin-top: 50px;
+}
+.lef-text p{
+color:#666666;	
+	
+}
+.ums-img{
+	position: absolute;
+	bottom:60px;
+}
+
+.big-img{
+width:70%!important;	
+}
+.min-text{
+width:30%!important;
+background: #01A2EA!important;
+position: relative;
+}
+.min-text h4{
+	margin-top:0px;
+	color:#fff!important;
+}
+.min-text p{
+color:#fff!important;
+}
+.min-text .ums-img{
+	bottom: 30px;
+}
+.sj{
+background: url(../images/jiant.png) no-repeat center;	
+	width:25px;
+	height:50px;
+	position: absolute;
+	top:50%;
+	left:-25px;
+	margin-top: -25px;
+}
+.hen-text{
+	width:50%;
+	background: #FFD02E;
+}
+.hen-img{
+	width:50%;
+}
+.hen-text h4{
+	color:#5F3100;
+}
+.hen-text p{
+		color:#5F3100;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+.rig-img{
+	display: none;
+}
+.width-box{
+	height:300px;
+}
+.ums-img{
+	bottom:20px!important;
+}
+.lef-text h4{
+	margin-top: 10px!important;
+}
+.lef-text{
+	width:100%!important;
+	text-align: center;
+	height:300px;
+}
+.sj{
+	display: none;
+}	
+	
+}

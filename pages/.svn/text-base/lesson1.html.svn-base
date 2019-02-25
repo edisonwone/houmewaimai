@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="zh-cn">
+	<!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面。-->
+		<title>候么外卖餐官网</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="外卖，候么外卖，厨房，中心厨房，家庭厨房，送餐，吃饭，创业，加盟代理">
+		<meta name="author" content="徐州候么餐饮管理有限公司" />
+		<meta name="Copyright" content="徐州候么餐饮管理有限公司" />
+		<meta name="description" content="徐州候么餐饮管理有限公司是一家从事互联网本地生活服务平台的产品公司。2017年推出候么外卖平台，候么外卖，可以直播的外卖，告别餐馆味道，告别固定菜谱，统一公开的采购，宝宝再也不用担心吃腻，更不用担心黑作坊不卫生不健康了。快来加盟候么外卖吧，现各市诚邀加盟代理">
+
+		<link rel="shortcut icon" href="../favicon.ico">
+		<!-- Google Webfont -->
+		<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'> -->
+		<!-- Themify Icons -->
+		<link rel="stylesheet" href="../css/themify-icons.css">
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/owl.carousel.min.css">
+		<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="../css/magnific-popup.css">
+		<link rel="stylesheet" href="../css/superfish.css">
+		<link rel="stylesheet" href="../css/easy-responsive-tabs.css">
+		<link rel="stylesheet" href="../css/animate.css">
+		<!-- Theme Style -->
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/culture.css">
+		<link rel="stylesheet" href="../css/kaidian.css">
+		<!-- Modernizr JS -->
+		<script src="../js/modernizr-2.6.2.min.js"></script>
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+			<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<style>
+			.row {
+				margin: 0;
+			}
+			
+			.col-xs-1,
+			.col-sm-1,
+			.col-md-1,
+			.col-lg-1,
+			.col-xs-2,
+			.col-sm-2,
+			.col-md-2,
+			.col-lg-2,
+			.col-xs-3,
+			.col-sm-3,
+			.col-md-3,
+			.col-lg-3,
+			.col-xs-4,
+			.col-sm-4,
+			.col-md-4,
+			.col-lg-4,
+			.col-xs-5,
+			.col-sm-5,
+			.col-md-5,
+			.col-lg-5,
+			.col-xs-6,
+			.col-sm-6,
+			.col-md-6,
+			.col-lg-6,
+			.col-xs-7,
+			.col-sm-7,
+			.col-md-7,
+			.col-lg-7,
+			.col-xs-8,
+			.col-sm-8,
+			.col-md-8,
+			.col-lg-8,
+			.col-xs-9,
+			.col-sm-9,
+			.col-md-9,
+			.col-lg-9,
+			.col-xs-10,
+			.col-sm-10,
+			.col-md-10,
+			.col-lg-10,
+			.col-xs-11,
+			.col-sm-11,
+			.col-md-11,
+			.col-lg-11,
+			.col-xs-12,
+			.col-sm-12,
+			.col-md-12,
+			.col-lg-12 {
+				padding: 0;
+			}
+			
+			.lesson {
+				padding: 0;
+			}
+			
+			.lesson_content {
+				border: 1px #ccc solid;
+				background: #fff;
+				padding: 25px 25px;
+				margin-bottom: 10px;
+			}
+			
+			.lesson_content h2 {
+				text-align: center;
+				padding: 0;
+				margin: 0;
+			}
+			
+			.lesson_content h4 {
+				padding: 0;
+				margin: 0;
+				font-size: 18px;
+				color: #333;
+			}
+			
+			.lesson_content .time {
+				text-align: center;
+				font-size: 14px;
+				padding-bottom: 20px;
+				border-bottom: 1px #999 dashed;
+			}
+			
+			.lesson_content .content_p p {
+				font-size: 14px;
+				margin: 15px 0;
+				text-indent: 20px;
+				color: #666;
+			}
+			
+			.floatl {
+				float: left;
+			}
+			
+			.floatr {
+				float: right;
+			}
+			
+			.clear {
+				clear: both;
+				width: 100%;
+				height: 0;
+			}			
+			.lesson_lists {
+				margin: 0;
+				padding: 0 25px;
+			}
+			
+			.lesson_lists .shiti {
+				margin-bottom: 30px;
+			}
+			
+			.lesson_lists h4 {
+				padding: 0;
+				margin: 0 0 10px 0;
+				font-size: 18px;
+			}
+			
+			.lesson_lists ul {
+				border: 1px #ccc solid;
+				border-bottom: none;
+				background: #fff;
+			}
+			
+			.lesson_lists ul li {
+				border-bottom: 1px #ccc solid;
+				padding: 10px 20px;
+			}
+			
+			.lesson_lists ul li img {
+				padding-right: 10px;
+			}
+			
+			.img-cen {
+				text-align: center;
+				width: 100%
+			}
+			
+			.img-cen img {
+				width: 100%;
+			}
+			
+			.text-lins p {
+				line-height: 60px;
+			}
+						@media screen and (max-width: 768px) {
+				.floatr{
+					float: left;
+				}
+				.lesson_lists ul li img{
+					padding-top: 9px;
+				}
+				.text-lins p{
+					line-height: 25px;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- START #fh5co-header -->
+		<header id="fh5co-header-section" role="header" style="background: #ffd02e;">
+			<div class="container">
+				<h1 id="fh5co-logo" class="pull-left"><a href="../index.html"><img src="../images/logo.png" alt="候么外卖"></a></h1>
+				<nav id="fh5co-menu-wrap" role="navigation">
+					<ul class="sf-menu" id="fh5co-primary-menu">
+						<li>
+							<a href="../index.html">首页</a>
+						</li>
+						<li>
+							<a href="culture.html">走进我们</a>
+						</li>
+						<li>
+							<a href="hezuo.html">招商合作</a>
+						</li>
+						<li>
+							<a href="project.html">项目简介</a>
+						</li>
+						<li class="active">
+							<a href="new-shang.html">商学院</a>
+						</li>
+						<li>
+							<a href="contactus.html">联系我们</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="fh5co-hero" style="background-image: url(../images/wsaf.png);">
+			<!-- End fh5co-arrow -->
+			<div class="container">
+				<div class="col-md-12">
+					<div class="fh5co-hero-wrap">
+						<div class="fh5co-hero-intro">
+							<h1 class="to-animate hero-animate-1">厨房商学院</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div id="fh5co-main" style="padding-bottom: 55px;background: #f7f7f7;">
+			<div class="container-fluid lesson">
+				<div class="row" style="margin:30px 0;">
+					<div class="col-xs-12 col-lg-6 col-lg-offset-1 lesson_content">
+						<h2>实体店如何规避选址风险</h2>
+						<p class="time">发表于：<span>2017-05-25</span>&nbsp;|&nbsp;浏览：<span>0</span></p>
+						<div class="img-cen"><img src="../images/1.jpg"></div>
+						<div class="content_p">
+							<p>选址不单单是看人流那么简单，转化率更不能靠蒙，如今选址的过程就是选顾客的过程。</p>
+							<p>基于数据分析推断出哪个商圈的顾客对你的产品和服务有需求，并根据需求的密集程度来选址，是当下省时高效解决选址的方法，也是体现大数据价值的地方。那么，怎样能让人工智能、机器学习这些时髦的名词和选址这个其实不那么时髦的事情结合在一起呢？</p>
+							<p>大数据商业价值很重要的一条就是对顾客群体细分，一切对地理数据的分析，都要回归到企业所要服务的“人”身上，而人的画像该如何描绘呢？</p>
+							<p>古人曰，物物以理相连。一个咖啡厅开在写字楼附近，必然因为在这里上班的白领一族对它有实质需求，它也依靠附近的人群生存、扩大规模，这我们称之为地物人之间“性感”的吸引力。应用在选址上，我们想到的解决方案是打通 POI（信息点），用每个商圈的消费特征来推测目标顾客特征。</p>
+							<p>举个例子，北京东直门的银座做餐饮生意特别好，是因为很多去办理欧洲签证的人都会来到东直门，很多培训学校也在附近，学生来来去去的也多，还有律师和做保险的也经常出现在这一区域，所以要看清楚目标地点周围的人都是做什么的，这点非常重要。</p>
+							<p>麦当劳在银座里开了一家门店，在马路对面，走路两分钟的路程又开了一家，原因很简单，银座对面是一个长途汽车站，站内的班车主要开往北京远郊，通常要坐一两个小时的车，每个人在坐车前一般都会买些吃的东西以备长途之需。这两家店的顾客消费动机不一样，固然互相没有影响。</p>
+							<p>数据时代的 3.0 版本选址模型如何运作</p>
+							<p>1.0 选址方法——靠人工</p>
+							<p>我们把依靠人工的选址称为 1.0 选址方法，其做法大致分为两种：一是凭感觉和个人喜好，或者繁华地带扎堆或者直接拍脑袋决定，另一种是蹲点数人流，拿一个客流量计算器，看到一个人经过就点击，来统计捕捉率，通过打分表计算对比来估算选在哪里。</p>
+							<p>这种方法会要依靠大量的人工，直接带来成本压力，经验不足的老板因此耗费很多财力物力，而不做客观的分析调研，也许还会增加后期的经营难度。</p>
+							<p>2.0 选址方法——依据互联网</p>
+							<p>互联网时代来临，选址方法借助互联网工具提升了一个档次，譬如：选择美团点评或同类 APP 了解商场内餐饮商户的营业状况、通过微信朋友圈发布需求信息、通过 58 同城等信息共享平台了解租金的情况，还有餐饮老板通过外卖和社群运营等方式进行引流，来弥补位置偏导致的顾客少问题。</p>
+							<p>借助互联网的方法大大提高了选址决策的效率，节约了时间，信息量也很丰富，但也不乏存在一些问题。现代商业环境的变化影响着商圈内消费结构的变化，所以商圈内都是哪类消费人群？谁会来消费？他们的消费特征是什么样的？这些因素仅仅通过网上的信息是摸索不到的，而且商圈内竞品的数量和更新趋等因素也无法及时有效的更新。另外，通过微信朋友圈求租，朋友对你的产品根本不了解，推荐的位置未必符合你的客群定位。</p>
+							<p>3.0 选址方法——依托大数据</p>
+							<p>明确目标客户，定位哪类人群为你品牌的目标对象，在当今大的商业环境下显得极为重要。消费场景是什么？你要卖给谁？更是需要餐饮老板在选址决策前需要回答的问题。</p>
+							<p>近年来，伴随着人们生活水平的提高和观念的更新，“消费升级”浪潮渐成规模，消费者从应付生活转变为经营生活、享受生活。城市化进程造就了商业新高地，新商业中心的拔地而起更是促进这一波消费升级浪潮的蔓延。</p>
+							<p>其实，餐饮的根本目的就是消费，而消费的核心就是人，不管是年轻群体，还是高端群体，不管朋友聚会，商务宴请，这个层面上都是围绕着人。所以如今餐饮老板在选址时，更会面临这样的选择：是倾向于稳定成熟的商业环境，还是倾向于以后有发展的潜力商圈？我的目标人群在哪？目标市场有没有充足的客源？</p>
+							<p>解答这些问题，只有靠真实的数据去分析，3.0 选址方法选址模型应运而生。</p>
+							<p>选址就是选商圈</p>
+							<p>选择商圈是大数据选址流程中的首要工作。</p>
+							<p>商圈有没有销售潜力？与餐饮定位相匹配的顾客群是否在这个商圈？不同的商圈适合不同的餐饮，因此了解商圈的性质、规模、特点、新旧程度，是极其重要的。只有对你目标城市和商圈有详细的了解，经营这件事才会更有把握。</p>
+							<p>餐饮系统化运营的“黄埔军校”麦当劳，会花一年左右来做调研，不仅推算了商圈成熟时间、人口基数分析、消费需求分析，还细化到主要消费人群的年龄阶段、消费特性以及交通习惯、就餐时间分析等。</p>
+							<p>西贝开发团队的开发选址工作，主要先从城市网络规划开始，会对每个城市每个商圈进行调研，按照优先排序的结果形成开发策略。优先进驻该区域 A 类成熟商圈，主要侧重于城市综合体、购物中心等。开发拓展人员会去切身调研目标商圈周边三公里范围内的交通动线、目标客群、收入水平、消费能力、竞争机会等因素。</p>
+							<p>选商圈就是选顾客</p>
+							<p>九毛九选址的第一步是对商圈客群进行分析。开一个店要看 5 个目标商圈，要建一个足够大的存量池，优中选优，找到最合心意的门店。</p>
+							<p>井格在社区选址的时候，也不完全看客流的多少，还分析客群的特点。这个地址能贡献多少你所需要的顾客，从而能满足餐厅运营的要求，给你带来满意的营业额和利润。除了这些，还会考察以下几个条件：社区类型、工程条件、动线因素。</p>
+							<p>在选择商圈过程中，要重视品牌契合度，餐饮经营最健康的衡量指标是现金流、可持续的投资回报率和利润，所以，“不求最好，只求最合适”。品类属性与顾客消费目的吻合度越高，餐厅就越有可能获得高盈利。通过瞄准特定的顾客群体来进行营销和服务，同样也规避了一定的风险。</p>
+						</div>
+						<div class="floatl">上一课：无</div>
+						<div class="floatr">下一课：
+							<a href="lesson2.html">如何开餐馆</a>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="col-xs-12 col-lg-3 lesson_lists">
+						<div class="shiti">
+							<h4>实体店课堂</h4>
+							<ul>
+								<li class="row text-lins">
+									<a href="lesson1.html">
+										<img src="../images/1.jpg" alt="" class="col-xs-4" />
+										<p class="col-xs-8">实体店如何规避选址风险</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson2.html">
+										<p>如何开餐馆</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson3.html">
+										<p>餐饮店有哪些运营好方法</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson4.html">
+										<p>现今最流行的九种餐饮经营模式，哪一种适合你？</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson5.html">
+										<p>开实体店的准备工作</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson6.html">
+										<p>如何成就一个品牌? 定义市场、创造惊喜……</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="chufang">
+							<h4>厨房课堂</h4>
+							<ul>
+								<li class="row">
+									<a href="cooklist_1.html">
+										<img src="../images/cookfood1.jpg" alt="" class="col-xs-4" />
+										<p class="col-xs-8">第一课：如何制作美味的虎皮青椒</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_2.html">
+										<p>第二课：卤肉饭的制作方法</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_3.html">
+										<p>第三课：制作美味菠萝古老肉</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_4.html">
+										<p>第四课：家乡豆腐的制作方法</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_5.html">
+										<p>第五课：酸辣面的做法</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_6.html">
+										<p>第六课：制作鱼香茄子的做法</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--row结束-->
+			</div>
+		</div>
+		<!-- END fhtco-main -->
+		<footer role="contentinfo" id="fh5co-footer">
+			<a href="javascript:;" class="fh5co-arrow fh5co-gotop footer-box"><i class="ti-angle-up"></i></a>
+			<div class="container">
+				<div class="row ">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-offset-3 col-md-2 erweima">
+						<img src="../images/qcode.png" />
+						<p>用户端app下载</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-2 erweima">
+						<img src="../images/qcode-2.png" />
+						<p>商家端app下载</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-2 erweima">
+						<img src="../images/qcode-3.png" />
+						<p>关注微信公众号</p>
+					</div>
+					<div class="links col-md-12" style="clear: both;">
+						友情链接：
+						<a href="http://www.qq.com/">腾讯</a>
+						<a href="http://sohu.com">搜狐</a>
+						<a href="http://shuidi.huajiao.com/pc/view.html?sn=36081769182">水滴直播</a>
+						<a href="http://www.chgop.com/">塑料瓶</a>
+						<a href="http://www.shqlpack.com/">包装盒厂家</a>
+						<a href="http://www.jsddwx.cn/">江诗丹顿售后维修</a>
+
+					</div>
+					<div class="col-md-12  text-center" style="clear: both;">
+						<div class="fh5co-copyright">
+							<p>&copy; 2017 徐州候么餐饮管理有限公司 houmewaimai.com 苏ICP备17060673号-1</p>
+						</div>
+					</div>
+				</div>
+				<div class="fh5co-spacer fh5co-spacer-md"></div>
+			</div>
+		</footer>
+		<script src="../js/jquery-1.10.2.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/owl.carousel.min.js"></script>
+		<script src="../js/jquery.magnific-popup.min.js"></script>
+		<script src="../js/hoverIntent.js"></script>
+		<script src="../js/superfish.js"></script>
+		<script src="../js/easyResponsiveTabs.js"></script>
+		<script src="../js/fastclick.js"></script>
+		<!--<script src="../js/jquery.parallax-scroll.min.js"></script>-->
+		<script src="../js/jquery.waypoints.min.js"></script>
+		<script src="../js/main.js"></script>
+		<script>
+			$(function() {
+				function myBrowser() {
+					var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+					var isOpera = userAgent.indexOf("Opera") > -1; //判断是否Opera浏览器
+					var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera; //判断是否IE浏览器
+					var isFF = userAgent.indexOf("Firefox") > -1; //判断是否Firefox浏览器
+					var isSafari = userAgent.indexOf("Safari") > -1; //判断是否Safari浏览器
+					if(isIE) {
+						var IE5 = IE55 = IE6 = IE7 = IE8 = false;
+						var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+						reIE.test(userAgent);
+						var fIEVersion = parseFloat(RegExp["$1"]);
+						IE55 = fIEVersion == 5.5;
+						IE6 = fIEVersion == 6.0;
+						IE7 = fIEVersion == 7.0;
+						IE8 = fIEVersion == 8.0;
+						if(IE55) {
+							return "IE55";
+						}
+						if(IE6) {
+							return "IE6";
+						}
+						if(IE7) {
+							return "IE7";
+						}
+						if(IE8) {
+							return "IE8";
+						}
+					} //isIE end
+					if(isFF) {
+						return "FF";
+					}
+					if(isOpera) {
+						return "Opera";
+					}
+				} //myBrowser() end
+				//以下是调用上面的函数
+				if(myBrowser() == "IE8") {
+					$("#fh5co-hero").css({
+						"display": "block",
+						"background-image": "url(../images/wsaf.png)"
+					});
+					$(".bor-rad").css({
+						"display": "none"
+					});
+					$(".yms-text").css("height", "auto")
+					$(".kosm").css("height", "400px")
+					$(".img-cen").css("width", "50%")
+					$(".item>.img-box:nth-last-child(2)").css("margin-right", "0px")
+				} else {
+
+				}
+				//				分页
+
+			})
+		</script>
+
+	</body>
+
+</html>

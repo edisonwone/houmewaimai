@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面。-->
+		<title>候么外卖餐官网</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="外卖，候么外卖，厨房，中心厨房，家庭厨房，送餐，吃饭，创业，加盟代理">
+		<meta name="author" content="徐州候么餐饮管理有限公司" />
+		<meta name="Copyright" content="徐州候么餐饮管理有限公司" />
+		<meta name="description" content="徐州候么餐饮管理有限公司是一家从事互联网本地生活服务平台的产品公司。2017年推出候么外卖平台，候么外卖，可以直播的外卖，告别餐馆味道，告别固定菜谱，统一公开的采购，宝宝再也不用担心吃腻，更不用担心黑作坊不卫生不健康了。快来加盟候么外卖吧，现各市诚邀加盟代理">
+
+		<link rel="shortcut icon" href="../favicon.ico">
+		<!-- Google Webfont -->
+		<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'> -->
+		<!-- Themify Icons -->
+		<link rel="stylesheet" href="../css/themify-icons.css">
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/owl.carousel.min.css">
+		<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="../css/magnific-popup.css">
+		<link rel="stylesheet" href="../css/superfish.css">
+		<link rel="stylesheet" href="../css/easy-responsive-tabs.css">
+		<link rel="stylesheet" href="../css/animate.css">
+		<!-- Theme Style -->
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/culture.css">
+		<link rel="stylesheet" href="../css/prospect.css">
+		<link rel="stylesheet" href="../css/profitability.css">
+		<!--<link rel="stylesheet" href="../css/cehua.css">-->
+		<style type="text/css">
+			#fh5co-hero {
+				/*height:300px!important;*/
+				background-size: cover;
+				filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='http://127.0.0.1:8020/xiangguguanwang/images/rba-img.png', sizingMethod='scale');
+			}
+			
+			.wi-cen {
+				width: 60%;
+			}
+			
+			.text-bor {
+				background: none;
+				/*margin-top: 50px;*/
+				padding: 3.5%;
+				padding-top: 0;
+				line-height: 35px;
+				text-indent: 20px;
+				color: #333;
+				font-size: 1.1em;
+			}
+			
+			@media screen and (max-width: 768px) {
+				.wi-cen {
+					width: 100%;
+				}
+				.text-bor {
+					height: auto;
+					font-size: 1em;
+					line-height: 30px;
+				}
+			}
+			
+			.jieshao {
+				margin-bottom: 50px;
+			}
+			
+			.jieshao dl dd {
+				text-align: center;
+				background: #f2f2f2;
+				padding-bottom: 30px;
+			}
+			
+			.jieshao dl dd h4 {
+				text-align: center;
+				color: #5f3100;
+				font-size: 40px;
+				line-height: 80px;
+				margin: 0;
+			}
+			
+			.jieshao dl dd a {
+				display: inline-block;
+				padding: 10px 20px;
+				border: 1px solid #333;
+				color: #333;
+			}
+			
+			.jieshao dl dd a:hover {
+				border-color: orange;
+				background: orange;
+				color: #fff;
+			}
+			
+			.km-text {
+				width: 100%;
+				height: auto;
+				min-height: 200px;
+				padding: 2% 0 5% 0;
+			}
+			
+			.mks-cen {
+				width: 60%;
+				margin: 0 auto;
+				font-size: 1em;
+				color: #000000;
+			}
+			
+			.mks-cen h2 {
+				font-size: 1.5em;
+			}
+			.omsd{
+			width:70%;		
+			}
+			@media screen and (max-width: 768px) {
+				.mks-cen {
+					width: 95%;
+				}
+
+			.omsd{
+				width:85%;
+			}				
+				.mks-cen h2 {
+					font-size: 1.2em;
+				}
+				.mks-cen {
+					font-size: 0.9em;
+				}
+				.wi-cen{
+					padding-bottom:0px;	
+				}
+				.wms-siz{
+					padding-left: 3%;
+					padding-right: 3%;
+				}
+				.pos-bntes{
+					padding-left: 3%;
+				}
+			}
+		</style>
+		<!-- Modernizr JS -->
+		<script src="../js/modernizr-2.6.2.min.js"></script>
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+			<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+		<header id="fh5co-header-section" role="header" style="background: #ffd02e;">
+			<div class="container">
+				<h1 id="fh5co-logo" class="pull-left"><a href="../index.html"><img src="../images/logo.png" alt="候么外卖"></a></h1>
+				<nav id="fh5co-menu-wrap" role="navigation">
+					<ul class="sf-menu" id="fh5co-primary-menu">
+						<li>
+							<a href="../index.html">首页</a>
+						</li>
+						<li>
+							<a href="culture.html">走进我们</a>
+						</li>
+						<li>
+							<a href="hezuo.html">招商合作</a>
+						</li>
+						<li class="active">
+							<a href="project.html">项目简介</a>
+						</li>
+						<li>
+							<a href="new-shang.html">商学院</a>
+						</li>
+						<li>
+							<a href="contactus.html">联系我们</a>
+						</li>
+
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<div id="fh5co-hero" style="background-image: url(../images/rba-img.png);">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="fh5co-hero-wrap">
+						<div class="fh5co-hero-intro">
+							<div class="to-animate hero-animate-1 h1">候么外卖 您的首选</div>
+							<div class="to-animate hero-animate-1 h1">项目简介</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-main">
+			<!--项目背景开始-->
+			<div class="fh5co-cards">
+				<div class="container-fluid" style="padding: 0px;">
+					<div class="row" style="margin: 0;">
+						<div class="col-md-12 heading text-center" style="padding: 0px;">
+							<h2 class="animated bounceInLeft">PROJECT BACKGROUND</h2>
+							<div class="wid-nix">
+								<div class="pull-left pos-left animated bounceInLeft"></div>
+								<div class="pull-left cen-text animated zoomIn">项目背景</div>
+								<div class="pull-left pos-right animated bounceInRight"></div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wi-cen">
+				<div class="color-yfmsa text-bor animate-box">
+					2013年开始，各路大伽纷纷开展外卖业务，形成外卖市场的“百团大战”，经过多年的合并整合，目前仅剩美团、百度、饿了么等规模较大的外卖订餐平台。成熟巨大的外卖市场仍存在着非常大的发展空间；几大外卖平台仅仅只是拥有网上订餐配送系统，运营上均是采用商家入驻的模式。据不完全统计，在中国每天外卖订单量超2000万单，90%的订单来自这三大平台。 <br /> 由于三大平台运营模式相同，导致消费者无论在哪个平台订外卖得到的商品都是一样的----来自线下商家。从而导致消费者对外卖餐品的乏味，由于外卖又是一种高频次的消费行为，所以“饭店味道”，靠大量味精、香精烹调出的食品实在是很难天天享用。而加盟外卖平台的商家又是良莠不齐的，餐品加工环节和食材质量监管方面均存在很大的盲点和漏洞，一些黑作坊及食品安全问题时有发生，问题及矛盾越来越突出。2017年两会上，外卖的食品安全问题作为议题被提上了议程，为解决上述问题，“家庭式中心厨房+外卖”模式应运而生。
+				</div>
+			</div>
+			<!--项目背景结束-->
+
+			<!--项目介绍开始-->
+			<div class="fh5co-cards">
+				<div class="container-fluid" style="padding: 0;">
+					<div class="row" style="margin: 0;">
+						<div class="col-md-12 heading text-center" style="padding: 0;">
+							<h2 class="animated bounceInLeft">CORPORATE CULTURE</h2>
+							<div class="wid-nix">
+								<div class="pull-left pos-left animated bounceInLeft"></div>
+								<div class="pull-left cen-text animated zoomIn">项目介绍</div>
+								<div class="pull-left pos-right animated bounceInRight"></div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container jieshao">
+				<div class="row">
+					<div class="col-sm-4">
+						<dl>
+							<dt><img src="../images/pro-1.jpg" width="100%" ></dt>
+							<dd>
+								<h4>中心厨房</h4>
+								<a href="zx-cook.html" target="_blank">
+									查看更多 <span class="glyphicon glyphicon-menu-right"></span>
+								</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="col-sm-4">
+						<dl>
+							<dt><img src="../images/pro-2.jpg" width="100%" ></dt>
+							<dd>
+								<h4>家庭厨房</h4>
+								<a href="jiating.html" target="_blank">
+									查看更多<span class="glyphicon glyphicon-menu-right"></span>
+								</a>
+							</dd>
+						</dl>
+					</div>
+					<div class="col-sm-4">
+						<dl>
+							<dt><img src="../images/pro-3.jpg" width="100%" ></dt>
+							<dd>
+								<h4>候么外卖APP</h4>
+								<a href="app.html" target="_blank">
+									查看更多<span class="glyphicon glyphicon-menu-right"></span>
+								</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<!--项目介绍结束-->
+
+			<!--项目优势开始-->
+			<div class="fh5co-cards">
+				<div class="container-fluid" style="padding: 0px;">
+					<div class="row" style="margin: 0;">
+						<div class="col-md-12 heading text-center" style="padding: 0px;">
+							<h2 class="animated bounceInLeft">PROJECT BACKGROUND</h2>
+							<div class="wid-nix">
+								<div class="pull-left pos-left animated bounceInLeft"></div>
+								<div class="pull-left cen-text animated zoomIn">项目优势</div>
+								<div class="pull-left pos-right animated bounceInRight"></div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="km-text animate-box">
+				<div class="mks-cen">
+					<h2>家庭式中心厨房相对餐饮行业实体店家优势突出，主要有以下几个方面：</h2> 1、中心厨房80%的空间为炉灶灶位，大大提高了出菜量；每人只做一道菜，大大提高了出菜效率。做到餐饮实体店的利润最大化。
+					<p /> 2、“家庭式”理念贯穿整个项目，弥补了整个餐饮市场的空白，从菜品上做到了独一无二，专业厨师做的菜到处都是，而家庭味道的菜只有我们这才有。
+					<p /> 3、严格透明的监管，解决了食品安全这个老大难问题，更好的留住用户，高强度的粘性必然带动高频次的消费。候么外卖经营模式，在互联网餐饮这个领域里是个创举，O2O+B2C模式更有着得天独厚的独特优势。
+					<p /> 4、相较于其他外卖平台所采取的店家入驻模式，其菜品盈利点在20%之内的抽成，而我们则把菜品的利润提高到了45%，而且还享受到了“候么外卖APP”的商业价值。
+					<p /> 5、中心厨房把单菜品的利润提高到了45%以上，面对某团等三大平台的竞争我们更有优势，同样做5折的活动，三大平台至少贴3折，而候么外卖最多是不赚钱，在活动的力度和周期上有着得天独厚的优势。
+					<p /> 6、采用招商加盟制度，“5灶位即可代理，15平方的面积5万元即可开店”等一系列的低门槛加盟政策，可以做到迅速发展门店；代理费的收取，完成“自我供血，自主盈利”的发展要求。即使发展期及后期没有A轮等大的融资介入，也可以完成快速布局及持续良性发展的战略要求。
+					<p /> 7、门店布局，统一门头，自主配送，服装统一，都有着超强的市场宣传作用，而且是一条免费的宣传途径。省去高昂广告费的同时，提高了宣传力度。
+					<p />
+				</div>
+
+			</div>
+			<!--项目优势结束-->
+
+			<!--项目前景开始-->
+			<div class="fh5co-cards">
+				<div class="container-fluid" style="padding: 0px;">
+					<div class="row" style="margin: 0;">
+						<div class="col-md-12 heading text-center" style="padding: 0px;">
+							<h2 class="animated bounceInLeft">PROJECT BACKGROUND</h2>
+							<div class="wid-nix">
+								<div class="pull-left pos-left animated bounceInLeft"></div>
+								<div class="pull-left cen-text animated zoomIn">项目前景</div>
+								<div class="pull-left pos-right animated bounceInRight"></div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wi-cen omsd" >
+				<div class="wid-mins">
+					<div class="pull-left widn-pic">
+						<div class="ubs-lida">
+							<img src="../images/cen-1.png">
+							<div class="box-color">
+								<div class="cyes">从行业上分析：</div>
+								候么外卖是一家互联网企业，而互联网行业又是目前中国最具潜力与未来的行业；其次，候么外卖又是一家连锁餐饮企业，而餐饮业又是传统行业中比较稳定且赚钱的行业。互联网和餐饮两个行业相互配合、相互依托、相互支持，前景不言而喻。
+
+							</div>
+						</div>
+					</div>
+					<div class="pull-left widn-pic">
+						<div class="ubs-lida">
+							<img src="../images/cen-2.png">
+							<div class="box-color">
+								<div class="cyes">从市场空间上分析：</div>
+								随着时代的发展与进步，外卖已逐渐成为主流的餐饮消费模式，目前全国外卖日订单量超过了2000万单，这个数字还在以每年 17%的速度增加，是一个年产值千亿级的市场，前景不可限量。
+							</div>
+						</div>
+					</div>
+					<div class="pull-left widn-pic">
+						<div class="ubs-lida">
+							<img src="../images/cen-3.png">
+							<div class="box-color">
+								<div class="cyes">从用户需求上分析：</div>
+								我们的“家庭式”和“全民监管”方式，使得我们的用户粘性很高，我们可以不作为主流外卖模式，但是我们可以弥补外卖市场上的空白，与主流外卖模式形成互补。互联网最缺的就是粘性，有了高粘性的大量用户，作为互联网行业成功上市的前景巨大。
+							</div>
+						</div>
+					</div>
+					<div class="pull-left widn-pic">
+						<div class="ubs-lida">
+							<img src="../images/cen-4.png">
+							<div class="box-color">
+								<div class="cyes">从政策上分析：</div>
+								食品安全问题一直是一个老大难的问题，今年两会上对外卖行业的食品安全问题也作为议题被提上了议程，而我们的模式及操作办法直接且有效的解决了会上提出的 9成难点。所以，我们今天的模式与布局是整个行业未来的政策性导向，先见之明和提前布局决定着前景有着旺盛的生命力。
+							</div>
+						</div>
+					</div>
+					<div class="pull-left widn-pic last">
+						<div class="ubs-lida">
+							<img src="../images/cen-5.png">
+							<div class="box-color">
+								<div class="cyes">从经济热点上分析：</div>
+								目前比较热门的两个问题“共享经济”和“最后一公里”两大课题。我们中心厨房中的灶位共享，对于 B端的“家庭煮妇（夫）”而言，为他们提供了就业与创业的机会。通过大量的市场经验与调研分析，我们可以精准的锁定用户群体，使得中心厨房的选址更具针对性，把配送范围缩小到了 300米至一公里范围内。综上所述候么外卖的前景巨大。
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<!--项目前景结束-->
+
+			<!--利益分析开始-->
+			<div class="fh5co-cards">
+				<div class="container-fluid" style="padding: 0px;">
+					<div class="row" style="margin: 0;">
+						<div class="col-md-12 heading text-center" style="padding: 0px;">
+							<h2 class="animated bounceInLeft">PROJECT BACKGROUND</h2>
+							<div class="wid-nix">
+								<div class="pull-left pos-left animated bounceInLeft"></div>
+								<div class="pull-left cen-text animated zoomIn">盈利分析</div>
+								<div class="pull-left pos-right animated bounceInRight"></div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wi-cen">
+				<div class="pos-bntes">
+					盈利模式
+				</div>
+				<div class="wms-siz">
+					候么外卖的盈利模式很简单，从本质上讲就是一点：营业额收入。候么外卖采取直营+代理（连锁加盟）的运营模式，无论是直营还是代理，盈利点最终都来自于营业额。直营中心厨房，营业额的所有利润直接为公司收益；而代理中心厨房，公司除前期收取一次性平台使用费外（2000元/灶位），还要每日收取营业额5%的平台管理费。
+				</div>
+				<div class="omsd-text">
+					<span>中心厨房盈利分析</span>
+					<p /> 中心厨房建设费用为每灶位3000元（包建模块）计算，另加厨房自建费用不等。
+				</div>
+
+				<div class="pull-left sd-text">
+					<img src="../images/tgs.png">
+					<div class="wyns-text">
+						一线城市以北京为例</div>
+					<div class="top-box">
+						一线城市以北京为例分析（100平方场地建设30灶位）
+						<p /> 投资成本：北京二环内房租平均成本在12元/㎡，以最高值15元/㎡计算。 房租成本为：15元/㎡ * 100㎡ * 365天 = 547500 元 建设成本：30位 * 3000 = 90000 元 固定投资金额合计 =总投资650000元 /30/30/13/365=15%总营业额成本 运营成本：营业额的55%为运营成本（人工、原材料、水电等等，不含房租） 利润：一个标准位平均单日出菜量为30份，炒菜和烧菜比例是2:1，平均菜 价为13元/份。 30灶位 * 30份 * 13元 = 11700元 * 45%纯利润 = 5265 元纯利润 5265 * 365天 = 1，921，725元 – 650，000 = 1，271，725元纯利润 650,000 / 5265 = 123天收回成本
+					</div>
+				</div>
+				<div class="pull-right sd-text">
+					<img src="../images/xZ.png">
+					<div class="wyns-text">三线城市以徐州为例
+					</div>
+					<div class="top-box">
+						三线城市以徐州为例分析（100平方场地建设30灶位）
+						<p /> 投资成本：徐州市内中心房租平均成本在5元/㎡/天，以最高值8元/㎡计算。 房租成本为：8元/㎡ * 100㎡ * 365天 = 292000 元 建设成本：30位 * 3000 = 90000 元 固定投资金额合计 =总投资382000元 运营成本：营业额的55%为运营成本（人工、原材料、水电等等，不含房租） 利润：一个标准位平均单日出菜量为30份，炒菜和烧菜比例是2:1，平均菜 价为10元/份。 30灶位 * 30份 * 10元 = 9000元 * 45%纯利润 = 4050 元纯利润 4050 * 365天 = 1，478，250元 – 382,000 = 1,158,250元纯利润 382000 / 4050 = 94天收回成本
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+
+			<!--利益分析结束-->
+		</div>
+		<div class="clear"></div>
+		<!-- END fhtco-main -->
+		<footer role="contentinfo" id="fh5co-footer">
+			<a href="javascript:;" class="fh5co-arrow fh5co-gotop footer-box"><i class="ti-angle-up"></i></a>
+			<div class="container">
+				<div class="row ">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-offset-3 col-md-2 erweima">
+						<img src="../images/qcode.png" />
+						<p>用户端app下载</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-2 erweima">
+						<img src="../images/qcode-2.png" />
+						<p>商家端app下载</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-2 erweima">
+						<img src="../images/qcode-3.png" />
+						<p>关注微信公众号</p>
+					</div>
+					<div class="links col-md-12" style="clear: both;">
+						友情链接：
+						<a href="http://www.qq.com/">腾讯</a>
+						<a href="http://sohu.com">搜狐</a>
+						<a href="http://shuidi.huajiao.com/pc/view.html?sn=36081769182">水滴直播</a>
+						<a href="http://www.chgop.com/">塑料瓶</a>
+						<a href="http://www.shqlpack.com/">包装盒厂家</a>
+						<a href="http://www.jsddwx.cn/">江诗丹顿售后维修</a>
+
+					</div>
+					<div class="col-md-12  text-center" style="clear: both;">
+						<div class="fh5co-copyright">
+							<p>&copy; 2017 徐州候么餐饮管理有限公司 houmewaimai.com 苏ICP备17060673号-1</p>
+						</div>
+					</div>
+				</div>
+				<div class="fh5co-spacer fh5co-spacer-md"></div>
+			</div>
+		</footer>
+		<script src="../js/jquery-1.10.2.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/owl.carousel.min.js"></script>
+		<script src="../js/jquery.magnific-popup.min.js"></script>
+		<script src="../js/hoverIntent.js"></script>
+		<script src="../js/superfish.js"></script>
+		<script src="../js/easyResponsiveTabs.js"></script>
+		<script src="../js/fastclick.js"></script>
+		<!--<script src="../js/jquery.parallax-scroll.min.js"></script>-->
+		<script src="../js/jquery.waypoints.min.js"></script>
+		<script src="../js/main.js"></script>
+		<script>
+			$(function() {
+				function myBrowser() {
+					var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+					var isOpera = userAgent.indexOf("Opera") > -1; //判断是否Opera浏览器
+					var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera; //判断是否IE浏览器
+					var isFF = userAgent.indexOf("Firefox") > -1; //判断是否Firefox浏览器
+					var isSafari = userAgent.indexOf("Safari") > -1; //判断是否Safari浏览器
+					if(isIE) {
+						var IE5 = IE55 = IE6 = IE7 = IE8 = false;
+						var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+						reIE.test(userAgent);
+						var fIEVersion = parseFloat(RegExp["$1"]);
+						IE55 = fIEVersion == 5.5;
+						IE6 = fIEVersion == 6.0;
+						IE7 = fIEVersion == 7.0;
+						IE8 = fIEVersion == 8.0;
+						if(IE55) {
+							return "IE55";
+						}
+						if(IE6) {
+							return "IE6";
+						}
+						if(IE7) {
+							return "IE7";
+						}
+						if(IE8) {
+							return "IE8";
+						}
+					} //isIE end
+					if(isFF) {
+						return "FF";
+					}
+					if(isOpera) {
+						return "Opera";
+						Object
+					}
+				} //myBrowser() end
+				//以下是调用上面的函数
+				if(myBrowser() == "IE8") {
+					$("#fh5co-hero").css({
+						"display": "block",
+						"background-image": "url(../images/wsaf.png)"
+					});
+					$(".fh5co-hero-intro h1").css({
+						"position": "relative",
+						"top": "-180px"
+					})
+
+					$(".item>.img-box:nth-last-child(2)").css("margin-right", "0px")
+				} else {
+
+				}
+
+			})
+		</script>
+	</body>
+
+</html>

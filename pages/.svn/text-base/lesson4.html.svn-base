@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="zh-cn">
+	<!--<![endif]-->
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面。-->
+		<title>候么外卖餐官网</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="外卖，候么外卖，厨房，中心厨房，家庭厨房，送餐，吃饭，创业，加盟代理">
+		<meta name="author" content="徐州候么餐饮管理有限公司" />
+		<meta name="Copyright" content="徐州候么餐饮管理有限公司" />
+		<meta name="description" content="徐州候么餐饮管理有限公司是一家从事互联网本地生活服务平台的产品公司。2017年推出候么外卖平台，候么外卖，可以直播的外卖，告别餐馆味道，告别固定菜谱，统一公开的采购，宝宝再也不用担心吃腻，更不用担心黑作坊不卫生不健康了。快来加盟候么外卖吧，现各市诚邀加盟代理">
+
+		<link rel="shortcut icon" href="../favicon.ico">
+		<!-- Google Webfont -->
+		<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'> -->
+		<!-- Themify Icons -->
+		<link rel="stylesheet" href="../css/themify-icons.css">
+		<link rel="stylesheet" href="../css/bootstrap.css">
+		<link rel="stylesheet" href="../css/owl.carousel.min.css">
+		<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="../css/magnific-popup.css">
+		<link rel="stylesheet" href="../css/superfish.css">
+		<link rel="stylesheet" href="../css/easy-responsive-tabs.css">
+		<link rel="stylesheet" href="../css/animate.css">
+		<!-- Theme Style -->
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/culture.css">
+		<link rel="stylesheet" href="../css/kaidian.css">
+		<!-- Modernizr JS -->
+		<script src="../js/modernizr-2.6.2.min.js"></script>
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+			<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<style>
+			.row {
+				margin: 0;
+			}
+			
+			.col-xs-1,
+			.col-sm-1,
+			.col-md-1,
+			.col-lg-1,
+			.col-xs-2,
+			.col-sm-2,
+			.col-md-2,
+			.col-lg-2,
+			.col-xs-3,
+			.col-sm-3,
+			.col-md-3,
+			.col-lg-3,
+			.col-xs-4,
+			.col-sm-4,
+			.col-md-4,
+			.col-lg-4,
+			.col-xs-5,
+			.col-sm-5,
+			.col-md-5,
+			.col-lg-5,
+			.col-xs-6,
+			.col-sm-6,
+			.col-md-6,
+			.col-lg-6,
+			.col-xs-7,
+			.col-sm-7,
+			.col-md-7,
+			.col-lg-7,
+			.col-xs-8,
+			.col-sm-8,
+			.col-md-8,
+			.col-lg-8,
+			.col-xs-9,
+			.col-sm-9,
+			.col-md-9,
+			.col-lg-9,
+			.col-xs-10,
+			.col-sm-10,
+			.col-md-10,
+			.col-lg-10,
+			.col-xs-11,
+			.col-sm-11,
+			.col-md-11,
+			.col-lg-11,
+			.col-xs-12,
+			.col-sm-12,
+			.col-md-12,
+			.col-lg-12 {
+				padding: 0;
+			}
+			
+			.lesson {
+				padding: 0;
+			}
+			
+			.lesson_content {
+				border: 1px #ccc solid;
+				background: #fff;
+				padding: 25px 25px;
+				margin-bottom: 10px;
+			}
+			
+			.lesson_content h2 {
+				text-align: center;
+				padding: 0;
+				margin: 0;
+			}
+			
+			.lesson_content h4 {
+				padding: 0;
+				margin: 0;
+				font-size: 18px;
+				color: #333;
+			}
+			
+			.lesson_content .time {
+				text-align: center;
+				font-size: 14px;
+				padding-bottom: 20px;
+				border-bottom: 1px #999 dashed;
+			}
+			
+			.lesson_content .content_p p {
+				font-size: 14px;
+				margin: 15px 0;
+				text-indent: 20px;
+				color: #666;
+			}
+			
+			.floatl {
+				float: left;
+			}
+			
+			.floatr {
+				float: right;
+			}
+			
+			.clear {
+				clear: both;
+				width: 100%;
+				height: 0;
+			}
+			
+			.lesson_lists {
+				margin: 0;
+				padding: 0 25px;
+			}
+			
+			.lesson_lists .shiti {
+				margin-bottom: 30px;
+			}
+			
+			.lesson_lists h4 {
+				padding: 0;
+				margin: 0 0 10px 0;
+				font-size: 18px;
+			}
+			
+			.lesson_lists ul {
+				border: 1px #ccc solid;
+				border-bottom: none;
+				background: #fff;
+			}
+			
+			.lesson_lists ul li {
+				border-bottom: 1px #ccc solid;
+				padding: 10px 20px;
+			}
+			
+			.lesson_lists ul li img {
+				padding-right: 10px;
+			}
+			
+			.img-cen img {
+				width: 100%;
+			}
+			
+			.text-lins p {
+				line-height: 60px;
+			}
+			@media screen and (max-width: 768px) {
+				.floatr{
+					float: left;
+				}
+				.lesson_lists ul li img{
+					padding-top: 9px;
+				}
+				.text-lins p{
+					line-height: 25px;
+				}
+			}			
+		</style>
+	</head>
+
+	<body>
+		<!-- START #fh5co-header -->
+		<header id="fh5co-header-section" role="header" class="" style="background: #ffd02e;position: relative;">
+			<div class="container">
+				<!-- START #fh5co-logo -->
+				<h1 id="fh5co-logo" class="pull-left"><a href="../index.html"><img src="../images/logo.png" alt="候么外卖" title="候么外卖"></a></h1>
+				<!-- START #fh5co-menu-wrap -->
+				<nav id="fh5co-menu-wrap" role="navigation">
+					<ul class="sf-menu" id="fh5co-primary-menu">
+						<li>
+							<a href="../index.html">首页</a>
+						</li>
+						<li>
+							<a href="javascript:;" class="fh5co-sub-ddown">走进我们</a>
+							<ul class="fh5co-sub-menu">
+								<li>
+									<a href="culture.html">企业文化</a>
+								</li>
+								<li>
+									<a href="joinus.html">招贤纳士</a>
+								</li>
+								<li>
+									<a href="development.html">发展战略</a>
+								</li>
+								<li>
+									<a href="jiegou.html">组织结构</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="javascript:;" class="fh5co-sub-ddown">加盟频道</a>
+							<ul class="fh5co-sub-menu">
+								<li>
+									<a href="project.html">项目背景</a>
+								</li>
+								<li>
+									<a href="introduction.html">项目介绍</a>
+								</li>
+								<li>
+									<a href="advantage.html">项目优势</a>
+								</li>
+								<li>
+									<a href="prospect.html">项目前景</a>
+								</li>
+								<li>
+									<a href="profitability.html">盈利分析</a>
+								</li>
+							</ul>
+						</li>
+						<li class="active">
+							<a href="javascript:;" class="fh5co-sub-ddown">厨房商学院</a>
+							<ul class="fh5co-sub-menu">
+								<li>
+									<a href="business-school.html">人力资源</a>
+								</li>
+								<li>
+									<a href="kaidian.html">开店指南</a>
+								</li>
+								<li>
+									<a href="cehua.html">运营策划</a>
+								</li>
+								<li>
+									<a href="classroom.html">实体店课堂</a>
+								</li>
+								<li class="active">
+									<a href="cook.html">今日厨房</a>
+								</li>
+
+							</ul>
+						</li>
+						<li>
+							<a href="contactus.html">联系我们</a>
+						</li>
+					</ul>
+				</nav>
+				<!-- </div> -->
+			</div>
+			<div id="navbg" style="width: 100%;background: #333;height:60px;display: none;position: absolute;top: 100%;"></div>
+		</header>
+		<div id="fh5co-hero" style="background-image: url(../images/wsaf.png);">
+			<!-- End fh5co-arrow -->
+			<div class="container">
+				<div class="col-md-12">
+					<div class="fh5co-hero-wrap">
+						<div class="fh5co-hero-intro">
+							<h1 class="to-animate hero-animate-1">厨房商学院</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div id="fh5co-main" style="padding-bottom: 55px;background: #f7f7f7;">
+			<div class="container-fluid lesson">
+				<div class="row" style="margin:30px 0;">
+					<div class="col-xs-12 col-lg-6 col-lg-offset-1 lesson_content">
+						<h2>现今最流行的九种餐饮经营模式，哪一种适合你？</h2>
+						<p class="time">发表于：<span>2017-05-25</span>&nbsp;|&nbsp;浏览：<span>0</span></p>
+						<div class="img-cen"><img src="../images/4.jpg"></div>
+						<div class="content_p">
+							<p>在现今社会，若还用传统那种经营模式来做生意，已经不合时宜的了，餐饮老板们要多想一些新的经营模式出来迎合大众，才能有一线生机。下面列举一下现今最流行的九种经营模式，各位老板可以参考一下，看看哪一种更适合你吧。打造新的餐饮经营模式，有三项条件必须要考虑。</p>
+							<h4>第一、企业所处商圈的具体情况。要有针对性的对企业所处商圈进行分析，对商圈内的客流进行分类，选定企业自身的服务人群。</h4>
+							<p>第二、同一商圈内的竞争对手。顶尖餐饮企业在确定经营模式时，要有意识避免与竞争对手正面冲突，以免两败俱伤。而应该寻找市场空隙，屏蔽竞争对手，做到“相争不相克”，共同做大区域市场这块“蛋糕”，提高本商圈的综合竞争力。</p>
+							<p>第三、投资者的经济实力和个人喜好。合理的餐饮经营模式，不是单一的。在同一商圈内，存在着若干选项。不同的投资者，因个人经济实力和习惯秉性存在差异，即使面对相同的市场环境，所作出的选择也是不同的。餐饮模式，没有最好的标准，只有最合适的选择。
+							</p>
+							<p>现在较为流行的餐饮经营模式有下面几种方法： </p>
+							<p>一是突出重点法。根据企业的主要经营项目，进行浓缩包装。一家沿海城市的酒楼，以海鲜为主打特色，辅以川湘鲁粤菜系的经典菜品，可以塑造成“渔夫码头”、“海鲜城”或“渔港”等模式，传递相应信息，方便顾客解读。</p>
+							<p>二是文化(历史、地域)搭台法。这是一种常见的模式塑造方法。借助于风土人情传说掌故的力量，重新整合酒店的消费方式和菜品结构，让顾客在酒店消费，体验到文化的魅力。如“湘鄂情”、“满汉全席”等特色酒楼模式。</p>
+							<p>三是器皿渲染法。以菜品加工或烹制用的器皿为依据，创新餐饮模式。近年来风头正劲的“紫砂锅”、“景泰蓝火锅”、“纸烤肉”等均属这一模式。</p>
+							<p>四是品种当家法。这是一种古老但生命力极其旺盛的餐饮模式，许多百年老店一直沿袭至今，不敢越雷池一步。以单一品种为菜品领袖，独步食林，众星捧月，极易获取顾客的信任。“烤鸭店”、“涮羊肉”“炸酱面”等均属此例。</p>
+							<p>五是制法(烹调方法)绑定法。专门突出菜品的烹调模式。如“烧烤店”、“麻辣烫”、“手擀面”等，以烹调方式为荣。</p>
+							<p>六是格调植入法。以营造消费气氛为卖点，环境舒适，价格不菲。如“荷塘月色”、“小城故事”、“一茶一座”等休闲餐饮模式。七是人群分层法。按照客户群体的消费档次，把顾客分成上中下三个档次，依据各档次人群的数量，确定自身的经营模式。高档备选模式“燕鲍翅”酒楼，中档备选模式“家常菜馆”，低档消费备选“大排档”。当然，在每个档次中，还可以再次分成上中下三个档次。细分的目的，是为了在确定模式时，定位精准。</p>
+							<p>八是母体寄生法。餐饮是寄生行业，靠零售为主，对人群的依赖性极大。所以，在人群比较集中的地方，“超市餐饮”、“商场餐饮”、“宾馆外特色小吃”等，分别寄生在超市、商场和宾馆上，同样会得到顾客的认可。 </p>
+							<p> 九是精华引入法。本地或本国没有，但外地或国外已经发展的非常成熟，在不违反相关法律的情况下，照抄照搬下来(如果要是加盟，更能够保持原汁原味)，效果也是非常好。</p>
+							<p>经营的模式具体实现的形式包括产品、服务、环境三大要素。三者的不同形式的组合形成了整个的经营模式。在整个的市场竞争当中，根据你选择的开店位置来组合经营模式，或者你定义好的模式来选择开店位置，这些就是一个餐饮品牌成败的主要原因。</p>
+						</div>
+						<div class="floatl">上一课：
+							<a href="lesson3.html">餐饮店有哪些运营好方法</a>
+						</div>
+						<div class="floatr">下一课：
+							<a href="lesson5.html">开实体店的准备工作</a>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="col-xs-12 col-lg-3 lesson_lists">
+						<div class="shiti">
+							<h4>实体店课堂</h4>
+							<ul>
+								<li class="row text-lins">
+									<a href="lesson1.html">
+										<img src="../images/1.jpg" alt="" class="col-xs-4" />
+										<p class="col-xs-8">实体店如何规避选址风险</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson2.html">
+										<p>如何开餐馆</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson3.html">
+										<p>餐饮店有哪些运营好方法</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson4.html">
+										<p>现今最流行的九种餐饮经营模式，哪一种适合你？</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson5.html">
+										<p>开实体店的准备工作</p>
+									</a>
+								</li>
+								<li>
+									<a href="lesson6.html">
+										<p>如何成就一个品牌? 定义市场、创造惊喜……</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="chufang">
+							<h4>厨房课堂</h4>
+							<ul>
+								<li class="row">
+									<a href="cooklist_1.html">
+										<img src="../images/cookfood1.jpg" alt="" class="col-xs-4" />
+										<p class="col-xs-8">第一课：如何制作美味的虎皮青椒</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_2.html">
+										<p>第二课：卤肉饭的制作方法</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_3.html">
+										<p>第三课：制作美味菠萝古老肉</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_4.html">
+										<p>第四课：家乡豆腐的制作方法</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_5.html">
+										<p>第五课：酸辣面的做法</p>
+									</a>
+								</li>
+								<li>
+									<a href="cooklist_6.html">
+										<p>第六课：制作鱼香茄子的做法</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--row结束-->
+			</div>
+		</div>
+		<!-- END fhtco-main -->
+		<footer role="contentinfo" id="fh5co-footer">
+			<a href="javascript:;" class="fh5co-arrow fh5co-gotop footer-box"><i class="ti-angle-up"></i></a>
+			<div class="container">
+				<div class="row ">
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-offset-3 col-md-2 erweima">
+						<img src="../images/qcode.png" />
+						<p>用户端app下载</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-2 erweima">
+						<img src="../images/qcode-2.png" />
+						<p>商家端app下载</p>
+					</div>
+					<div class="col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 col-md-2 erweima">
+						<img src="../images/qcode-3.png" />
+						<p>关注微信公众号</p>
+					</div>
+					<div class="links col-md-12" style="clear: both;">
+						友情链接：
+						<a href="http://www.qq.com/">腾讯</a>
+						<a href="http://sohu.com">搜狐</a>
+						<a href="http://shuidi.huajiao.com/pc/view.html?sn=36081769182">水滴直播</a>
+						<a href="http://www.chgop.com/">塑料瓶</a>
+						<a href="http://www.shqlpack.com/">包装盒厂家</a>
+						<a href="http://www.jsddwx.cn/">江诗丹顿售后维修</a>
+
+					</div>
+					<div class="col-md-12  text-center" style="clear: both;">
+						<div class="fh5co-copyright">
+							<p>&copy; 2017 徐州候么餐饮管理有限公司 houmewaimai.com 苏ICP备17060673号-1</p>
+						</div>
+					</div>
+				</div>
+				<div class="fh5co-spacer fh5co-spacer-md"></div>
+			</div>
+		</footer>
+		<script src="../js/jquery-1.10.2.min.js"></script>
+		<script src="../js/jquery.easing.1.3.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/owl.carousel.min.js"></script>
+		<script src="../js/jquery.magnific-popup.min.js"></script>
+		<script src="../js/hoverIntent.js"></script>
+		<script src="../js/superfish.js"></script>
+		<script src="../js/easyResponsiveTabs.js"></script>
+		<script src="../js/fastclick.js"></script>
+		<!--<script src="../js/jquery.parallax-scroll.min.js"></script>-->
+		<script src="../js/jquery.waypoints.min.js"></script>
+		<script src="../js/main.js"></script>
+		<script>
+			$(function() {
+				function myBrowser() {
+					var userAgent = navigator.userAgent; //取得浏览器的userAgent字符串
+					var isOpera = userAgent.indexOf("Opera") > -1; //判断是否Opera浏览器
+					var isIE = userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1 && !isOpera; //判断是否IE浏览器
+					var isFF = userAgent.indexOf("Firefox") > -1; //判断是否Firefox浏览器
+					var isSafari = userAgent.indexOf("Safari") > -1; //判断是否Safari浏览器
+					if(isIE) {
+						var IE5 = IE55 = IE6 = IE7 = IE8 = false;
+						var reIE = new RegExp("MSIE (\\d+\\.\\d+);");
+						reIE.test(userAgent);
+						var fIEVersion = parseFloat(RegExp["$1"]);
+						IE55 = fIEVersion == 5.5;
+						IE6 = fIEVersion == 6.0;
+						IE7 = fIEVersion == 7.0;
+						IE8 = fIEVersion == 8.0;
+						if(IE55) {
+							return "IE55";
+						}
+						if(IE6) {
+							return "IE6";
+						}
+						if(IE7) {
+							return "IE7";
+						}
+						if(IE8) {
+							return "IE8";
+						}
+					} //isIE end
+					if(isFF) {
+						return "FF";
+					}
+					if(isOpera) {
+						return "Opera";
+					}
+				} //myBrowser() end
+				//以下是调用上面的函数
+				if(myBrowser() == "IE8") {
+					$("#fh5co-hero").css({
+						"display": "block",
+						"background-image": "url(../images/wsaf.png)"
+					});
+					$(".bor-rad").css({
+						"display": "none"
+					});
+					$(".yms-text").css("height", "auto")
+					$(".kosm").css("height", "400px")
+					$(".img-cen").css("width", "50%")
+					$(".item>.img-box:nth-last-child(2)").css("margin-right", "0px")
+				} else {
+
+				}
+			})
+		</script>
+
+	</body>
+
+</html>

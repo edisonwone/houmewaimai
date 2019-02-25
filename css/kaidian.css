@@ -1,0 +1,157 @@
+p{margin: 0;padding: 0;}
+.kding{
+width:100%;	
+height:auto;
+background-color:#eeeeee;	
+margin-bottom: 10px;
+}
+.yms-text{
+width:90%;
+height:auto;
+margin: 0 auto;	
+padding: 2%;
+position: relative;
+}
+#fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro > h1{
+	margin-bottom: 50px;
+	display: inline-block;
+}
+.kosm{
+width:	48%;
+height:450px;
+background: #FFFFFF;	
+margin-left: 1.41%;
+margin-bottom:20px ;
+padding: 2%;
+}
+
+.sda-jnm img{
+margin-top: 30px;
+width:100%;
+height:;	
+}
+.sda-jnm span{
+font-size:3.5em;	
+text-align: center;
+width:100%;
+display: inline-block;
+color:#5F3100;	
+}
+.text-alms{
+font-size: 1.1em;	
+line-height: 35px;
+width:70%;
+color:#333333;	
+
+}
+.bor-rad{
+width:180px;	
+height:180px;
+border-radius: 180px;
+position: absolute;
+background: #FFD02E;
+left:50%;
+margin-left: -90px;	
+top:50%;
+margin-top:-90px ;
+text-align: center;
+line-height: 75px;
+font-size: 3.3em;
+padding-top: 10px;
+color:#FFFFFF;
+}
+@media screen and (max-width: 768px) {
+.kosm img{
+display: none;	
+	
+}	
+
+.sda-jnm span{
+width:100%;
+font-size: 2.2em;	
+height:80px;
+line-height: 80px;
+}	
+.kosm{
+width:100%;	
+height:auto;
+margin: 0px;
+text-align: center;
+background: #fff;
+margin-top: 20px;
+}	
+.text-alms{
+width:100%;	
+}
+.kding{
+width:100%;	
+}	
+.yms-text{
+width:100%;
+margin: 0 auto;	
+padding: 0px;
+margin: 0px;
+height:auto!important;
+padding-bottom: 50px;
+padding-top: 50px;
+}
+.bor-rad{
+display: none;	
+}	
+.yms-text .pull-left{
+	float: none!important;
+}
+.yms-text .pull-right{
+	float:none!important;}
+	
+}
+
+@media screen and (min-width: 769px) and (max-width: 1548px){
+.kosm img{
+display: none;	
+	
+}	
+
+.sda-jnm span{
+width:100%;
+font-size: 3em;	
+height:80px;
+line-height: 80px;
+}	
+.kosm{
+width:100%;	
+height:auto;
+margin: 0px;
+text-align: center;
+background: #fff;
+margin-top: 20px;
+}	
+.text-alms{
+width:100%;	
+}
+.kding{
+width:100%;	
+}	
+.yms-text{
+width:100%;
+margin: 0 auto;	
+padding: 0px;
+margin: 0px;
+height:auto!important;
+padding-bottom: 50px;
+padding-top: 50px;
+}
+.bor-rad{
+display: none;	
+}	
+.yms-text .pull-left{
+	float: none!important;
+}
+.yms-text .pull-right{
+	float:none!important;}	
+	
+}
+
+
+
+
